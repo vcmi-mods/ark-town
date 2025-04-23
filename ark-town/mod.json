@@ -24,6 +24,13 @@
 			"translation/ark/polish.json"
 		]
 	},
+    "chinese": {
+		"name": "方舟城",
+		"description": "新城镇方舟，基于极北民族的民间传说创作。",
+		"translations": [
+			"translation/ark/chinese.json"
+		]
+	},
 	"changelog": {
 		"1.0.3": [ "Fixed Polish translation integrity with original game version by Yoshiro."],
                 "1.0.2": [ "Polish translation by FallainBlack"],
