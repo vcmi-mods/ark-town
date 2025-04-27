@@ -17,9 +17,15 @@
 					"value"		: 1500,
 					"rarity"	: 100
 				},
-				"levels": [
+				"onGuardedMessage" : 32,
+				"onVisitedMessage" : 33,
+				"visitMode" : "once",
+				"selectMode" : "selectFirst",
+				"guardsLayout" : "creatureBankWide",
+				"rewards": [
 					{
-						"chance": 30,
+						"message" : 34,
+						"appearChance" : { "min" : 0, "max" : 30 },
 						"guards": [
 							{ "amount": 50, "type" : "ark_frostling_lvl1" },
 							{ "amount": 50, "type" : "ark_frostling_lvl1_up" },
@@ -28,21 +34,18 @@
 							{ "amount": 20, "type" : "ark_rider_lvl4" },
 							{ "amount": 15, "type" : "ark_rider_lvl4_up" }
 						],
-						"combat_value": 100,
-						"reward" : {
-							"value": 2000,
-							"resources": 
-							{
-								"sulfur" : 8,
+						"resources": 
+						{
+							"sulfur" : 8,
 							"ore" : 20,
 							"wood" : 20,
 							"gold" : 8000
-							}
 						}
 					},
-										
+
 					{
-						"chance": 30,
+						"message" : 34,
+						"appearChance" : { "min" : 30, "max" : 60 },
 						"guards": [
 							{ "amount": 60, "type" : "ark_frostling_lvl1" },
 							{ "amount": 60, "type" : "ark_frostling_lvl1_up" },
@@ -51,22 +54,18 @@
 							{ "amount": 25, "type" : "ark_rider_lvl4" },
 							{ "amount": 20, "type" : "ark_rider_lvl4_up" }
 						],
-						"combat_value": 150,
-						"reward" : {
-							"value": 3000,
-							"resources": 
-							{
-							
-								"sulfur" : 9,
+						"resources": 
+						{		
+							"sulfur" : 9,
 							"ore" : 25,
 							"wood" : 25,
 							"gold" : 9000
-							}
 						}
 					},
 					
 					{
-						"chance": 30,
+						"message" : 34,
+						"appearChance" : { "min" : 60, "max" : 90 },
 						"guards": [
 							{ "amount": 70, "type" : "ark_frostling_lvl1" },
 							{ "amount": 70, "type" : "ark_frostling_lvl1_up" },
@@ -75,22 +74,18 @@
 							{ "amount": 30, "type" : "ark_rider_lvl4" },
 							{ "amount": 25, "type" : "ark_rider_lvl4_up" }
 						],
-						"combat_value": 300,
-						"reward" : {
-							"value": 4000,
-							"resources": 
-							{
-							
-								"sulfur" : 10,
+						"resources": 
+						{
+							"sulfur" : 10,
 							"ore" : 30,
 							"wood" : 30,
 							"gold" : 10000
-							}
 						}
 					},
 					
 					{
-						"chance": 10,
+						"message" : 34,
+						"appearChance" : { "min" : 90, "max" : 100 },
 						"guards": [
 							{ "amount": 80, "type" : "ark_frostling_lvl1" },
 							{ "amount": 80, "type" : "ark_frostling_lvl1_up" },
@@ -99,17 +94,12 @@
 							{ "amount": 35, "type" : "ark_rider_lvl4" },
 							{ "amount": 30, "type" : "ark_rider_lvl4_up" }
 						],
-						"combat_value": 300,
-						"reward" : {
-							"value": 6000,
-							"resources": 
-							{
-							
-								"sulfur" : 11,
+						"resources": 
+						{		
+							"sulfur" : 11,
 							"ore" : 35,
 							"wood" : 35,
 							"gold" : 11000
-							}
 						}
 					}
 				]

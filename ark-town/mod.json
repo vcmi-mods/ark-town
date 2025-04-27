@@ -3,7 +3,7 @@
 	"description": "The new city of Ark-town, created based on the folklore of the peoples of the far north.",
 	"author": "Vovan1698",
 	"contact": "discord: Vovan1698",
-	"version": "1.0.3",
+	"version": "1.0.4",
 	"modType": "Town", 
 	"depends" : [ "hota.cove", "hota.interference" ],
 	"conflicts" : [ "an-expansion.skills.warfare" ],
@@ -32,8 +32,9 @@
 		]
 	},
 	"changelog": {
+		"1.0.4": [ "Fixes for banks"],
 		"1.0.3": [ "Fixed Polish translation integrity with original game version by Yoshiro."],
-                "1.0.2": [ "Polish translation by FallainBlack"],
+        "1.0.2": [ "Polish translation by FallainBlack"],
 		"1.0.1": [ "Fix Grail not to produce gold"],
 		"1.0.0": [ "Initial release"]
 	},
