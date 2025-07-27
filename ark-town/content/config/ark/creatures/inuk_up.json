@@ -1,76 +1,71 @@
 {
-	"ark_inuk_lvl2_up": {
-		"name": {
-			"singular": "Inuk Hunter",
-			"plural": "Inuk Hunters"
+	"ark_inuk_lvl2_up" : {
+		"name" : {
+			"singular" : "Inuk Hunter",
+			"plural" : "Inuk Hunters"
 		},
-		"level": 2,
-		"special": false,
-		"faction": "ark",
-		"cost": {
-			"wood": 0,
-			"mercury": 0,
-			"ore": 0,
-			"sulfur": 0,
-			"crystal": 0,
-			"gems": 0,
-			"gold": 150
+		"level" : 2,
+		"special" : false,
+		"faction" : "ark",
+		"cost" : {
+			"wood" : 0,
+			"mercury" : 0,
+			"ore" : 0,
+			"sulfur" : 0,
+			"crystal" : 0,
+			"gems" : 0,
+			"gold" : 150
 		},
-		"fightValue": 113,
-		"aiValue": 182,
-		"growth": 9,
-		"attack": 6,
-		"defense": 5,
-		"hitPoints": 10,
-		"shots": 24,
-		"speed": 6,
-		"damage": {
-			"min": 2,
-			"max": 3
+		"fightValue" : 113,
+		"aiValue" : 182,
+		"growth" : 9,
+		"attack" : 6,
+		"defense" : 5,
+		"hitPoints" : 10,
+		"shots" : 24,
+		"speed" : 6,
+		"damage" : {
+			"min" : 2,
+			"max" : 3
 		},
-		"spellPoints": 0,
-		"advMapAmount": {
-			"max": 26,
-			"min": 15
+		"spellPoints" : 0,
+		"advMapAmount" : {
+			"max" : 26,
+			"min" : 15
 		},
-		"doubleWide": false,
-		"abilities": {
-			"shooter": {
+		"doubleWide" : false,
+		"abilities" : {
+			"shooter" : {
 				"type" : "SHOOTER"
 			},
-			"extraAttack" :
-			{
-				"type": "ADDITIONAL_ATTACK",
+			"extraAttack" : {
+				"type" : "ADDITIONAL_ATTACK",
 				"val" : 1,
-				"effectRange": "ONLY_DISTANCE_FIGHT",
+				"effectRange" : "ONLY_DISTANCE_FIGHT"
 			},
-			"shooterBonus" :
-			{
-				"type": "NO_WALL_PENALTY"
+			"shooterBonus" : {
+				"type" : "NO_WALL_PENALTY"
 			},
-			"shooterBonus2" :
-			{
-				"type": "FREE_SHOOTING"
+			"shooterBonus2" : {
+				"type" : "FREE_SHOOTING"
 			}
 		},
-		"hasDoubleWeek": false,
-		"graphics": {
-			"animation": "ark/creatures/battle/inukUp.def",
-			"map": "ark/creatures/adventure/inukUp.def",
-			"iconSmall": "ark/creatures/icon/inukUp.bmp",
-			"iconLarge": "ark/creatures/portrait/inukUp.bmp",
-			"timeBetweenFidgets": 1.00,
-			"animationTime": {
-				"walk": 1,
-				"idle": 10.00,
-				"attack": 1
+		"hasDoubleWeek" : false,
+		"graphics" : {
+			"animation" : "ark/creatures/battle/inukUp.def",
+			"map" : "ark/creatures/adventure/inukUp.def",
+			"iconSmall" : "ark/creatures/icon/inukUp.bmp",
+			"iconLarge" : "ark/creatures/portrait/inukUp.bmp",
+			"timeBetweenFidgets" : 1.0,
+			"animationTime" : {
+				"walk" : 1,
+				"idle" : 10.0,
+				"attack" : 1
 			},
-			"missile" :
-			{
-				"projectile": "PLCBOWX.DEF",
+			"missile" : {
+				"projectile" : "PLCBOWX.DEF",
 				"attackClimaxFrame" : 7,
-				"offset" :
-				{
+				"offset" : {
 					"upperX" : 38,
 					"upperY" : -65,
 					"middleX" : 36,
@@ -78,17 +73,29 @@
 					"lowerX" : 21,
 					"lowerY" : -50
 				},
-				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+				"frameAngles" : [
+					90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90,
+					0,
+					0,
+					0
+				]
 			}
 		},
-		"sound":
-		{
-			"attack": "LCRSATTK.wav",
-			"defend": "LCRSDFND.wav",
-			"killed": "LCRSKILL.wav",
-			"move": "LCRSMOVE.wav",
-			"shoot": "LCRSSHOT.wav",
-			"wince": "LCRSWNCE.wav"
+		"sound" : {
+			"attack" : "LCRSATTK.wav",
+			"defend" : "LCRSDFND.wav",
+			"killed" : "LCRSKILL.wav",
+			"move" : "LCRSMOVE.wav",
+			"shoot" : "LCRSSHOT.wav",
+			"wince" : "LCRSWNCE.wav"
 		}
 	}
 }

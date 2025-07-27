@@ -1,51 +1,50 @@
 {
-	"ark_auril": {
-		"army": [
+	"ark_auril" : {
+		"army" : [
 			{
-				"creature": "ark_frostling_lvl1",
-				"max": 25,
-				"min": 15
+				"creature" : "ark_frostling_lvl1",
+				"max" : 25,
+				"min" : 15
 			},
 			{
-				"creature": "ark_inuk_lvl2",
-				"max": 9,
-				"min": 7
+				"creature" : "ark_inuk_lvl2",
+				"max" : 9,
+				"min" : 7
 			},
 			{
-				"creature": "ark_ram_lvl3",
+				"creature" : "ark_ram_lvl3",
 				"max" : 6,
 				"min" : 4
 			}
 		],
-		"female": true,
-		"class": "ark_oracle",
-		"images": {
-			"large": "ark/heroes/auril/Auril-Big.bmp",
-			"small": "ark/heroes/auril/Auril-Small.bmp",
-			"specialtyLarge": "ark/heroes/auril/AurilSpec.bmp",
-			"specialtySmall": "ark/heroes/auril/AurilSpecS.bmp"
+		"female" : true,
+		"class" : "ark_oracle",
+		"images" : {
+			"large" : "ark/heroes/auril/Auril-Big.bmp",
+			"small" : "ark/heroes/auril/Auril-Small.bmp",
+			"specialtyLarge" : "ark/heroes/auril/AurilSpec.bmp",
+			"specialtySmall" : "ark/heroes/auril/AurilSpecS.bmp"
 		},
-		"spellbook" :
-		[
-			"magicArrow" 
+		"spellbook" : [
+			"magicArrow"
 		],
-		"skills": [
+		"skills" : [
 			{
-				"level": "basic",
-				"skill": "airMagic"
+				"level" : "basic",
+				"skill" : "airMagic"
 			},
 			{
-				"level": "basic",
-				"skill": "sorcery"
+				"level" : "basic",
+				"skill" : "sorcery"
 			}
 		],
 		"specialty" : {
 			"secondary" : "sorcery"
 		},
-		"texts": {
-			"biography": "As a young spellcaster of the Inuk people, Auril is in constant search of new witchcraft knowledge in order to become one of the most powerful sorcerers of the far north, but her most important dream is to achieve superiority over the great magicians of Vori, which she intends to achieve tirelessly.",
-			"name": "Auril",
-			"specialty": {
+		"texts" : {
+			"biography" : "As a young spellcaster of the Inuk people, Auril is in constant search of new witchcraft knowledge in order to become one of the most powerful sorcerers of the far north, but her most important dream is to achieve superiority over the great magicians of Vori, which she intends to achieve tirelessly.",
+			"name" : "Auril",
+			"specialty" : {
 				"description" : "Receives a 5% per level bonus to Sorcery skill percentage.",
 				"tooltip" : "Skill bonus: Sorcery",
 				"name" : "Sorcery"

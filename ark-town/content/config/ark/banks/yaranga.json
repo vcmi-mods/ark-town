@@ -1,41 +1,69 @@
 {
-	"core:creatureBank" : 
-	{
-		"types" : 
-		{
-			"ark_yaranga" : 
-			{
+	"core:creatureBank" : {
+		"types" : {
+			"ark_yaranga" : {
 				"name" : "Yaranga of mammoth hunters",
 				"templates" : {
-					"base" : { "animation" : "ark/map/banks/huntyaranga.def", 
-					"visitableFrom" : [ "+++", "+++", "+++" ], 
-					"mask" : [ "VVV", "VVV", "VBA" ],
-					"allowedTerrains":["snow"] 
+					"base" : {
+						"animation" : "ark/map/banks/huntyaranga.def",
+						"visitableFrom" : [
+							"+++",
+							"+++",
+							"+++"
+						],
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VBA"
+						],
+						"allowedTerrains" : [
+							"snow"
+						]
 					}
 				},
 				"rmg" : {
-					"value"		: 1500,
-					"rarity"	: 100
+					"value" : 1500,
+					"rarity" : 100
 				},
 				"onGuardedMessage" : 32,
 				"onVisitedMessage" : 33,
 				"visitMode" : "once",
 				"selectMode" : "selectFirst",
 				"guardsLayout" : "creatureBankWide",
-				"rewards": [
+				"rewards" : [
 					{
 						"message" : 34,
-						"appearChance" : { "min" : 0, "max" : 30 },
-						"guards": [
-							{ "amount": 50, "type" : "ark_frostling_lvl1" },
-							{ "amount": 50, "type" : "ark_frostling_lvl1_up" },
-							{ "amount": 50, "type" : "ark_frostling_lvl1" },
-							{ "amount": 20, "type" : "ark_rider_lvl4" },
-							{ "amount": 20, "type" : "ark_rider_lvl4" },
-							{ "amount": 15, "type" : "ark_rider_lvl4_up" }
+						"appearChance" : {
+							"min" : 0,
+							"max" : 30
+						},
+						"guards" : [
+							{
+								"amount" : 50,
+								"type" : "ark_frostling_lvl1"
+							},
+							{
+								"amount" : 50,
+								"type" : "ark_frostling_lvl1_up"
+							},
+							{
+								"amount" : 50,
+								"type" : "ark_frostling_lvl1"
+							},
+							{
+								"amount" : 20,
+								"type" : "ark_rider_lvl4"
+							},
+							{
+								"amount" : 20,
+								"type" : "ark_rider_lvl4"
+							},
+							{
+								"amount" : 15,
+								"type" : "ark_rider_lvl4_up"
+							}
 						],
-						"resources": 
-						{
+						"resources" : {
 							"sulfur" : 8,
 							"ore" : 20,
 							"wood" : 20,
@@ -45,57 +73,117 @@
 
 					{
 						"message" : 34,
-						"appearChance" : { "min" : 30, "max" : 60 },
-						"guards": [
-							{ "amount": 60, "type" : "ark_frostling_lvl1" },
-							{ "amount": 60, "type" : "ark_frostling_lvl1_up" },
-							{ "amount": 60, "type" : "ark_frostling_lvl1" },
-							{ "amount": 25, "type" : "ark_rider_lvl4" },
-							{ "amount": 25, "type" : "ark_rider_lvl4" },
-							{ "amount": 20, "type" : "ark_rider_lvl4_up" }
+						"appearChance" : {
+							"min" : 30,
+							"max" : 60
+						},
+						"guards" : [
+							{
+								"amount" : 60,
+								"type" : "ark_frostling_lvl1"
+							},
+							{
+								"amount" : 60,
+								"type" : "ark_frostling_lvl1_up"
+							},
+							{
+								"amount" : 60,
+								"type" : "ark_frostling_lvl1"
+							},
+							{
+								"amount" : 25,
+								"type" : "ark_rider_lvl4"
+							},
+							{
+								"amount" : 25,
+								"type" : "ark_rider_lvl4"
+							},
+							{
+								"amount" : 20,
+								"type" : "ark_rider_lvl4_up"
+							}
 						],
-						"resources": 
-						{		
+						"resources" : {
 							"sulfur" : 9,
 							"ore" : 25,
 							"wood" : 25,
 							"gold" : 9000
 						}
 					},
-					
+
 					{
 						"message" : 34,
-						"appearChance" : { "min" : 60, "max" : 90 },
-						"guards": [
-							{ "amount": 70, "type" : "ark_frostling_lvl1" },
-							{ "amount": 70, "type" : "ark_frostling_lvl1_up" },
-							{ "amount": 70, "type" : "ark_frostling_lvl1" },
-							{ "amount": 30, "type" : "ark_rider_lvl4" },
-							{ "amount": 30, "type" : "ark_rider_lvl4" },
-							{ "amount": 25, "type" : "ark_rider_lvl4_up" }
+						"appearChance" : {
+							"min" : 60,
+							"max" : 90
+						},
+						"guards" : [
+							{
+								"amount" : 70,
+								"type" : "ark_frostling_lvl1"
+							},
+							{
+								"amount" : 70,
+								"type" : "ark_frostling_lvl1_up"
+							},
+							{
+								"amount" : 70,
+								"type" : "ark_frostling_lvl1"
+							},
+							{
+								"amount" : 30,
+								"type" : "ark_rider_lvl4"
+							},
+							{
+								"amount" : 30,
+								"type" : "ark_rider_lvl4"
+							},
+							{
+								"amount" : 25,
+								"type" : "ark_rider_lvl4_up"
+							}
 						],
-						"resources": 
-						{
+						"resources" : {
 							"sulfur" : 10,
 							"ore" : 30,
 							"wood" : 30,
 							"gold" : 10000
 						}
 					},
-					
+
 					{
 						"message" : 34,
-						"appearChance" : { "min" : 90, "max" : 100 },
-						"guards": [
-							{ "amount": 80, "type" : "ark_frostling_lvl1" },
-							{ "amount": 80, "type" : "ark_frostling_lvl1_up" },
-							{ "amount": 80, "type" : "ark_frostling_lvl1" },
-							{ "amount": 35, "type" : "ark_rider_lvl4" },
-							{ "amount": 35, "type" : "ark_rider_lvl4" },
-							{ "amount": 30, "type" : "ark_rider_lvl4_up" }
+						"appearChance" : {
+							"min" : 90,
+							"max" : 100
+						},
+						"guards" : [
+							{
+								"amount" : 80,
+								"type" : "ark_frostling_lvl1"
+							},
+							{
+								"amount" : 80,
+								"type" : "ark_frostling_lvl1_up"
+							},
+							{
+								"amount" : 80,
+								"type" : "ark_frostling_lvl1"
+							},
+							{
+								"amount" : 35,
+								"type" : "ark_rider_lvl4"
+							},
+							{
+								"amount" : 35,
+								"type" : "ark_rider_lvl4"
+							},
+							{
+								"amount" : 30,
+								"type" : "ark_rider_lvl4_up"
+							}
 						],
-						"resources": 
-						{		
+						"resources" : {
 							"sulfur" : 11,
 							"ore" : 35,
 							"wood" : 35,

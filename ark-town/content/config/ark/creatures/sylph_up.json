@@ -1,71 +1,71 @@
 {
-	"ark_sylph_lvl5_up": {
-		"name": {
-			"singular": "Sylph Witch",
-			"plural": "Sylph Witches"
+	"ark_sylph_lvl5_up" : {
+		"name" : {
+			"singular" : "Sylph Witch",
+			"plural" : "Sylph Witches"
 		},
-		"level": 5,
-		"special": false,
-		"faction": "ark",
-		"cost": {
-			"wood": 0,
-			"mercury": 0,
-			"ore": 0,
-			"sulfur": 0,
-			"crystal": 0,
-			"gems": 0,
-			"gold": 600
+		"level" : 5,
+		"special" : false,
+		"faction" : "ark",
+		"cost" : {
+			"wood" : 0,
+			"mercury" : 0,
+			"ore" : 0,
+			"sulfur" : 0,
+			"crystal" : 0,
+			"gems" : 0,
+			"gold" : 600
 		},
-		"fightValue": 750,
-		"aiValue": 944,
-		"growth": 3,
-		"attack": 12,
-		"defense": 13,
-		"hitPoints": 40,
-		"speed": 11,
-		"damage": {
-			"min": 13,
-			"max": 16
+		"fightValue" : 750,
+		"aiValue" : 944,
+		"growth" : 3,
+		"attack" : 12,
+		"defense" : 13,
+		"hitPoints" : 40,
+		"speed" : 11,
+		"damage" : {
+			"min" : 13,
+			"max" : 16
 		},
-		"spellPoints": 0,
-		"advMapAmount": {
-			"max": 11,
-			"min": 8
+		"spellPoints" : 0,
+		"advMapAmount" : {
+			"max" : 11,
+			"min" : 8
 		},
-		"doubleWide": false,
-		"abilities": {
-			"AirImmunity": {
-				"type": "SPELL_SCHOOL_IMMUNITY",
+		"doubleWide" : false,
+		"abilities" : {
+			"AirImmunity" : {
+				"type" : "SPELL_SCHOOL_IMMUNITY",
 				"subtype" : "air"
-				  },
-			"Mirror": {
-				"type": "MAGIC_MIRROR",
-				"val": 50
-				  },
-			"Wizard": {
-				"type": "CHANGES_SPELL_COST_FOR_ENEMY",
-				"val": 3
-				  }
-			     },
-		"hasDoubleWeek": false,
-		"graphics": {
-			"animation": "ark/creatures/battle/sylphUp.def",
-			"map": "ark/creatures/adventure/sylphUp.def",
-			"iconSmall": "ark/creatures/icon/sylphUp.bmp",
-			"iconLarge": "ark/creatures/portrait/sylphUp.bmp",
-			"timeBetweenFidgets": 1.00,
-			"animationTime": {
-				"walk": 1.8,
-				"idle": 10.00,
-				"attack": 1
+			},
+			"Mirror" : {
+				"type" : "MAGIC_MIRROR",
+				"val" : 50
+			},
+			"Wizard" : {
+				"type" : "CHANGES_SPELL_COST_FOR_ENEMY",
+				"val" : 3
 			}
 		},
-		"sound": {
-			"attack": "ark/sylatk.wav",
-			"defend": "ark/sylhit.wav",
-			"killed": "ark/syldie.wav",
-			"move": "ark/sylwlk.wav",
-			"wince": "ark/sylhit.wav"
+		"hasDoubleWeek" : false,
+		"graphics" : {
+			"animation" : "ark/creatures/battle/sylphUp.def",
+			"map" : "ark/creatures/adventure/sylphUp.def",
+			"iconSmall" : "ark/creatures/icon/sylphUp.bmp",
+			"iconLarge" : "ark/creatures/portrait/sylphUp.bmp",
+			"timeBetweenFidgets" : 1.0,
+			"animationTime" : {
+				"walk" : 1.8,
+				"idle" : 10.0,
+				"attack" : 1
+			}
+		},
+		"sound" : {
+			"attack" : "ark/sylatk.wav",
+			"defend" : "ark/sylhit.wav",
+			"killed" : "ark/syldie.wav",
+			"move" : "ark/sylwlk.wav",
+			"wince" : "ark/sylhit.wav"
 		}
 	}
 }

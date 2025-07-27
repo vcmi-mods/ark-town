@@ -1,32 +1,31 @@
 {
-	"ark_jinara": {
-		"army": [
+	"ark_jinara" : {
+		"army" : [
 			{
-				"creature": "ark_frostling_lvl1",
-				"max": 25,
-				"min": 15
+				"creature" : "ark_frostling_lvl1",
+				"max" : 25,
+				"min" : 15
 			},
 			{
-				"creature": "ark_inuk_lvl2",
-				"max": 9,
-				"min": 7
+				"creature" : "ark_inuk_lvl2",
+				"max" : 9,
+				"min" : 7
 			},
 			{
-				"creature": "ark_ram_lvl3",
+				"creature" : "ark_ram_lvl3",
 				"max" : 6,
 				"min" : 4
 			}
 		],
-		"class": "ark_oracle",
+		"class" : "ark_oracle",
 		"female" : true,
-		"images": {
-			"large": "ark/heroes/jinara/Jinara-Big.bmp",
-			"small": "ark/heroes/jinara/Jinara-Small.bmp",
-			"specialtyLarge": "ark/heroes/jinara/JinaraSpec.bmp",
-			"specialtySmall": "ark/heroes/jinara/JinaraSpecS.bmp"
+		"images" : {
+			"large" : "ark/heroes/jinara/Jinara-Big.bmp",
+			"small" : "ark/heroes/jinara/Jinara-Small.bmp",
+			"specialtyLarge" : "ark/heroes/jinara/JinaraSpec.bmp",
+			"specialtySmall" : "ark/heroes/jinara/JinaraSpecS.bmp"
 		},
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "advanced",
 				"skill" : "learning"
@@ -35,10 +34,10 @@
 		"specialty" : {
 			"secondary" : "learning"
 		},
-		"texts": {
-			"biography": "Jinara's mother has been the keeper of the magical archive of the sylphs in the great ice palace of the north for three hundred years, and therefore her young daughter has access to a huge repository of the secret knowledge of her people from early childhood. It was her love of books and ancient scrolls that made Jinara a strong new leader and future heir to the entire archive.",
-			"name": "jinara",
-			"specialty": {
+		"texts" : {
+			"biography" : "Jinara's mother has been the keeper of the magical archive of the sylphs in the great ice palace of the north for three hundred years, and therefore her young daughter has access to a huge repository of the secret knowledge of her people from early childhood. It was her love of books and ancient scrolls that made Jinara a strong new leader and future heir to the entire archive.",
+			"name" : "jinara",
+			"specialty" : {
 				"description" : "Receives a 5% per level bonus to Learning skill percentage.",
 				"tooltip" : "Skill bonus: Learning",
 				"name" : "Learning"

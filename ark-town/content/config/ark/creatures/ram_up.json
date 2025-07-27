@@ -1,62 +1,62 @@
 {
-	"ark_ram_lvl3_up": {
-		"name": {
-			"singular": "Argali",
-			"plural": "Argali"
+	"ark_ram_lvl3_up" : {
+		"name" : {
+			"singular" : "Argali",
+			"plural" : "Argali"
 		},
-		"level": 3,
-		"special": false,
-		"faction": "ark",
-		"cost": {
-			"wood": 0,
-			"mercury": 0,
-			"ore": 0,
-			"sulfur": 0,
-			"crystal": 0,
-			"gems": 0,
-			"gold": 250
+		"level" : 3,
+		"special" : false,
+		"faction" : "ark",
+		"cost" : {
+			"wood" : 0,
+			"mercury" : 0,
+			"ore" : 0,
+			"sulfur" : 0,
+			"crystal" : 0,
+			"gems" : 0,
+			"gold" : 250
 		},
-		"fightValue": 310,
-		"aiValue": 394,
-		"growth": 5,
-		"attack": 10,
-		"defense": 8,
-		"hitPoints": 26,
-		"speed": 8,
-		"damage": {
-			"min": 3,
-			"max": 7
+		"fightValue" : 310,
+		"aiValue" : 394,
+		"growth" : 5,
+		"attack" : 10,
+		"defense" : 8,
+		"hitPoints" : 26,
+		"speed" : 8,
+		"damage" : {
+			"min" : 3,
+			"max" : 7
 		},
-		"spellPoints": 0,
-		"advMapAmount": {
-			"max": 18,
-			"min": 7
+		"spellPoints" : 0,
+		"advMapAmount" : {
+			"max" : 18,
+			"min" : 7
 		},
-		"doubleWide": true,
-		"abilities": {
-			"Counterattack": {
-				"type": "UNLIMITED_RETALIATIONS"
-			}
-		},	
-		"hasDoubleWeek": false,
-		"graphics": {
-			"animation": "ark/creatures/battle/ramUp.def",
-			"map": "ark/creatures/adventure/ramUp.def",
-			"iconSmall": "ark/creatures/icon/ramUp.bmp",
-			"iconLarge": "ark/creatures/portrait/ramUp.bmp",
-			"timeBetweenFidgets": 1.00,
-			"animationTime": {
-				"walk": 1,
-				"idle": 10.00,
-				"attack": 1
+		"doubleWide" : true,
+		"abilities" : {
+			"Counterattack" : {
+				"type" : "UNLIMITED_RETALIATIONS"
 			}
 		},
-		"sound": {
-			"attack": "ark/RAMATTK.wav",
-				"defend": "ark/RAMATTK.wav",
-				"killed": "ark/RAMKILL.wav",
-				"move": "UNICMOVE.wav",
-				"wince": "ark/RAMWNCE.wav"
+		"hasDoubleWeek" : false,
+		"graphics" : {
+			"animation" : "ark/creatures/battle/ramUp.def",
+			"map" : "ark/creatures/adventure/ramUp.def",
+			"iconSmall" : "ark/creatures/icon/ramUp.bmp",
+			"iconLarge" : "ark/creatures/portrait/ramUp.bmp",
+			"timeBetweenFidgets" : 1.0,
+			"animationTime" : {
+				"walk" : 1,
+				"idle" : 10.0,
+				"attack" : 1
+			}
+		},
+		"sound" : {
+			"attack" : "ark/RAMATTK.wav",
+			"defend" : "ark/RAMATTK.wav",
+			"killed" : "ark/RAMKILL.wav",
+			"move" : "UNICMOVE.wav",
+			"wince" : "ark/RAMWNCE.wav"
 		}
 	}
 }

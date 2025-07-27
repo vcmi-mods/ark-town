@@ -1,46 +1,46 @@
 {
-	"ark_taktuk": {
-		"army": [
+	"ark_taktuk" : {
+		"army" : [
 			{
-				"creature": "ark_ram_lvl3",
-				"max": 6,
-				"min": 4
+				"creature" : "ark_ram_lvl3",
+				"max" : 6,
+				"min" : 4
 			},
 			{
-				"creature": "ark_ram_lvl3",
-				"max": 6,
-				"min": 4
+				"creature" : "ark_ram_lvl3",
+				"max" : 6,
+				"min" : 4
 			},
 			{
-				"creature": "ark_ram_lvl3",
+				"creature" : "ark_ram_lvl3",
 				"max" : 6,
 				"min" : 4
 			}
 		],
-		"class": "ark_angakok",
-		"images": {
-			"large": "ark/heroes/taktuk/Taktuk-Big.bmp",
-			"small": "ark/heroes/taktuk/Taktuk-Small.bmp",
-			"specialtyLarge": "ark/heroes/taktuk/TaktukSpec.png",
-			"specialtySmall": "ark/heroes/taktuk/TaktukSpecS.png"
+		"class" : "ark_angakok",
+		"images" : {
+			"large" : "ark/heroes/taktuk/Taktuk-Big.bmp",
+			"small" : "ark/heroes/taktuk/Taktuk-Small.bmp",
+			"specialtyLarge" : "ark/heroes/taktuk/TaktukSpec.png",
+			"specialtySmall" : "ark/heroes/taktuk/TaktukSpecS.png"
 		},
-		"skills": [
+		"skills" : [
 			{
-				"level": "basic",
-				"skill": "pathfinding"
+				"level" : "basic",
+				"skill" : "pathfinding"
 			},
 			{
-				"level": "basic",
-				"skill": "logistics"
+				"level" : "basic",
+				"skill" : "logistics"
 			}
 		],
 		"specialty" : {
 			"creature" : "ark_ram_lvl3"
 		},
-		"texts": {
-			"biography": "In the harsh conditions of the far north, it is extremely important to stick together to survive, but this cold land knows a few hermits who dare to stay away from settlements. Taktuk is a representative of the frostling people, but he left his native village long ago, since all his life he has experienced animal hatred for others, which often turns into uncontrollable aggression. It is much easier for him alone, and only wild animals sometimes brighten up his proud loneliness.",
-			"name": "Taktuk",
-			"specialty": {
+		"texts" : {
+			"biography" : "In the harsh conditions of the far north, it is extremely important to stick together to survive, but this cold land knows a few hermits who dare to stay away from settlements. Taktuk is a representative of the frostling people, but he left his native village long ago, since all his life he has experienced animal hatred for others, which often turns into uncontrollable aggression. It is much easier for him alone, and only wild animals sometimes brighten up his proud loneliness.",
+			"name" : "Taktuk",
+			"specialty" : {
 				"description" : "Increases Speed of any Mountain Rams and Argali by 1 and their Attack and Defense skills by 5% for every 2 levels (rounded up).",
 				"tooltip" : "Creature bonus: Mountain Rams",
 				"name" : "Mountain Rams"

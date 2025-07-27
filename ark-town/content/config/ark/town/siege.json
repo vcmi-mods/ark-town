@@ -1,105 +1,105 @@
 {
-	"ark": {
-		"town": {
-			"siege": {
-				"shooter": "ark_inuk_lvl2",
-				"towerIconSmall": "ark/icons/arrowtowersmall",
-				"towerIconLarge": "ark/icons/arrowtowerslarge",
-				"imagePrefix": "ark/siege/ArkSiege",
-				"gate": {
-					"arch": {
-						"x": 460,
-						"y": 210
+	"ark" : {
+		"town" : {
+			"siege" : {
+				"shooter" : "ark_inuk_lvl2",
+				"towerIconSmall" : "ark/icons/arrowtowersmall",
+				"towerIconLarge" : "ark/icons/arrowtowerslarge",
+				"imagePrefix" : "ark/siege/ArkSiege",
+				"gate" : {
+					"arch" : {
+						"x" : 460,
+						"y" : 210
 					},
-					"gate": {
-						"x": 415,
-						"y": 270
+					"gate" : {
+						"x" : 415,
+						"y" : 270
 					}
 				},
-				"moat": {
-					"bank": {
-						"x": 400,
-						"y": 80
+				"moat" : {
+					"bank" : {
+						"x" : 400,
+						"y" : 80
 					},
-					"moat": {
-						"x": 424,
-						"y": 60
+					"moat" : {
+						"x" : 424,
+						"y" : 60
 					}
 				},
-				"static": {
-					"background": {
-						"x": 615,
-						"y": 15
+				"static" : {
+					"background" : {
+						"x" : 615,
+						"y" : 15
 					},
-					"bottom": {
-						"x": 508,
-						"y": 330
+					"bottom" : {
+						"x" : 508,
+						"y" : 330
 					},
-					"top": {
-						"x": 513,
-						"y": 103
+					"top" : {
+						"x" : 513,
+						"y" : 103
 					}
 				},
-				"towers": {
-					"bottom": {
-						"battlement": {
-							"x": 589,
-							"y": 475
+				"towers" : {
+					"bottom" : {
+						"battlement" : {
+							"x" : 589,
+							"y" : 475
 						},
-						"creature": {
-							"x": 372,
-							"y": 297
+						"creature" : {
+							"x" : 372,
+							"y" : 297
 						},
-						"tower": {
-							"x": 589,
-							"y": 475
+						"tower" : {
+							"x" : 589,
+							"y" : 475
 						}
 					},
-					"keep": {
-						"battlement": {
-							"x": 734,
-							"y": 180
+					"keep" : {
+						"battlement" : {
+							"x" : 734,
+							"y" : 180
 						},
-						"creature": {
-							"x": 540,
-							"y": -29
+						"creature" : {
+							"x" : 540,
+							"y" : -29
 						},
-						"tower": {
-							"x": 734,
-							"y": 180
+						"tower" : {
+							"x" : 734,
+							"y" : 180
 						}
 					},
-					"top": {
-						"battlement": {
-							"x": 555,
-							"y": 12
+					"top" : {
+						"battlement" : {
+							"x" : 555,
+							"y" : 12
 						},
-						"creature": {
-							"x": 338,
-							"y": -178
+						"creature" : {
+							"x" : 338,
+							"y" : -178
 						},
-						"tower": {
-							"x": 555,
-							"y": 12
+						"tower" : {
+							"x" : 555,
+							"y" : 12
 						}
 					}
 				},
-				"walls": {
-					"bottom": {
-						"x": 542,
-						"y": 400
+				"walls" : {
+					"bottom" : {
+						"x" : 542,
+						"y" : 400
 					},
-					"bottomMid": {
-						"x": 486,
-						"y": 306
+					"bottomMid" : {
+						"x" : 486,
+						"y" : 306
 					},
-					"upper": {
-						"x": 546,
-						"y": 64
+					"upper" : {
+						"x" : 546,
+						"y" : 64
 					},
-					"upperMid": {
-						"x": 479,
-						"y": 160
+					"upperMid" : {
+						"x" : 479,
+						"y" : 160
 					}
 				}
 			}

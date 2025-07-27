@@ -1,55 +1,57 @@
 {
-	"ark_shuga": {
-		"army": [
+	"ark_shuga" : {
+		"army" : [
 			{
-				"creature": "ark_frostling_lvl1",
-				"max": 25,
-				"min": 15
+				"creature" : "ark_frostling_lvl1",
+				"max" : 25,
+				"min" : 15
 			},
 			{
-				"creature": "ark_inuk_lvl2",
-				"max": 9,
-				"min": 7
+				"creature" : "ark_inuk_lvl2",
+				"max" : 9,
+				"min" : 7
 			},
 			{
-				"creature": "ark_ram_lvl3",
+				"creature" : "ark_ram_lvl3",
 				"max" : 6,
 				"min" : 4
 			}
 		],
-		"female": false,
-		"class": "ark_oracle",
-		"images": {
-			"large": "ark/heroes/Shuga/Shuga-Big.bmp",
-			"small": "ark/heroes/Shuga/Shuga-Small.bmp",
-			"specialtyLarge": "ark/heroes/Shuga/ShugaSpec.bmp",
-			"specialtySmall": "ark/heroes/Shuga/ShugaSpecS.bmp"
+		"female" : false,
+		"class" : "ark_oracle",
+		"images" : {
+			"large" : "ark/heroes/Shuga/Shuga-Big.bmp",
+			"small" : "ark/heroes/Shuga/Shuga-Small.bmp",
+			"specialtyLarge" : "ark/heroes/Shuga/ShugaSpec.bmp",
+			"specialtySmall" : "ark/heroes/Shuga/ShugaSpecS.bmp"
 		},
-		"skills": [
+		"skills" : [
 			{
-				"level": "basic",
-				"skill": "tactics"
+				"level" : "basic",
+				"skill" : "tactics"
 			},
 			{
-				"level": "basic",
-				"skill": "offence"
+				"level" : "basic",
+				"skill" : "offence"
 			}
 		],
 		"specialty" : {
-		"bonuses" : {
-			"morale" : {
-				"propagator": "BATTLE_WIDE",
-				"propagationUpdater" : "BONUS_OWNER_UPDATER",
-				"limiters" : [ "OPPOSITE_SIDE" ],
-				"type" : "MORALE", 
-				"val" : -1 
+			"bonuses" : {
+				"morale" : {
+					"propagator" : "BATTLE_WIDE",
+					"propagationUpdater" : "BONUS_OWNER_UPDATER",
+					"limiters" : [
+						"OPPOSITE_SIDE"
+					],
+					"type" : "MORALE",
+					"val" : -1
 				}
 			}
 		},
-		"texts": {
-			"biography": "Shuga is known as the most terrible ice demon of the permafrost lands, even other demons fall into fear at the sight of him, not to mention the enemy armies whose warriors lose all morality at the sight of this creature.",
-			"name": "Shuga",
-			"specialty": {
+		"texts" : {
+			"biography" : "Shuga is known as the most terrible ice demon of the permafrost lands, even other demons fall into fear at the sight of him, not to mention the enemy armies whose warriors lose all morality at the sight of this creature.",
+			"name" : "Shuga",
+			"specialty" : {
 				"description" : "Give -1 Morale to Enemy's troop.",
 				"tooltip" : "-1 Morale",
 				"name" : "-1 Morale"

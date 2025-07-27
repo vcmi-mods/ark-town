@@ -1,46 +1,46 @@
 {
-	"ark_cycyrn": {
-		"army": [
+	"ark_cycyrn" : {
+		"army" : [
 			{
-				"creature": "ark_frostling_lvl1",
-				"max": 25,
-				"min": 15
+				"creature" : "ark_frostling_lvl1",
+				"max" : 25,
+				"min" : 15
 			},
 			{
-				"creature": "ark_ram_lvl3",
-				"max": 6,
-				"min": 4
+				"creature" : "ark_ram_lvl3",
+				"max" : 6,
+				"min" : 4
 			},
 			{
-				"creature": "ark_ram_lvl3",
+				"creature" : "ark_ram_lvl3",
 				"max" : 6,
 				"min" : 4
 			}
 		],
-		"class": "ark_angakok",
-		"images": {
-			"large": "ark/heroes/cycyrn/Cycyrn-Big.bmp",
-			"small": "ark/heroes/cycyrn/Cycyrn-Small.bmp",
-			"specialtyLarge": "ark/heroes/cycyrn/CycyrnSpec.png",
-			"specialtySmall": "ark/heroes/cycyrn/CycyrnSpecS.png"
+		"class" : "ark_angakok",
+		"images" : {
+			"large" : "ark/heroes/cycyrn/Cycyrn-Big.bmp",
+			"small" : "ark/heroes/cycyrn/Cycyrn-Small.bmp",
+			"specialtyLarge" : "ark/heroes/cycyrn/CycyrnSpec.png",
+			"specialtySmall" : "ark/heroes/cycyrn/CycyrnSpecS.png"
 		},
-		"skills": [
+		"skills" : [
 			{
-				"level": "basic",
-				"skill": "wisdom"
+				"level" : "basic",
+				"skill" : "wisdom"
 			},
 			{
-				"level": "basic",
-				"skill": "tactics"
+				"level" : "basic",
+				"skill" : "tactics"
 			}
 		],
 		"specialty" : {
 			"creature" : "ark_giant_lvl7"
 		},
-		"texts": {
-			"biography": "The formidable and powerful Cycyrn, the leader of the ice giants, whose wrath all the tribes of the far north fear and, in order to appease this powerful creature, present him with gifts. But they do this not so that the giant does not destroy their villages, but so that they turn their anger on the daring enemies who come to ruin small tribes.",
-			"name": "Cycyrn",
-			"specialty": {
+		"texts" : {
+			"biography" : "The formidable and powerful Cycyrn, the leader of the ice giants, whose wrath all the tribes of the far north fear and, in order to appease this powerful creature, present him with gifts. But they do this not so that the giant does not destroy their villages, but so that they turn their anger on the daring enemies who come to ruin small tribes.",
+			"name" : "Cycyrn",
+			"specialty" : {
 				"description" : "Increases the Attack and Defense skills of any Ice Giants and Giant Flame-Bearers she commands for each level attainded after 5th level.",
 				"tooltip" : "Creature bonus: Ice Giants",
 				"name" : "Ice Giants"

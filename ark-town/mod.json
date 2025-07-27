@@ -1,45 +1,62 @@
 {
-	"name": "Ark-town",
-	"description": "The new city of Ark-town, created based on the folklore of the peoples of the far north.",
-	"author": "Vovan1698",
-	"contact": "discord: Vovan1698",
-	"version": "1.0.5",
-	"modType": "Town", 
-	"depends" : [ "hota.cove", "hota.interference" ],
-	"conflicts" : [ "an-expansion.skills.warfare" ],
-	"compatibility": {
-		"min": "1.7.0"
+	"name" : "Ark-town",
+	"description" : "The new city of Ark-town, created based on the folklore of the peoples of the far north.",
+	"author" : "Vovan1698",
+	"contact" : "discord: Vovan1698",
+	"version" : "1.0.5",
+	"modType" : "Town",
+	"depends" : [
+		"hota.cove",
+		"hota.interference"
+	],
+	"conflicts" : [
+		"an-expansion.skills.warfare"
+	],
+	"compatibility" : {
+		"min" : "1.7.0"
 	},
-	"russian": {
-		"name": "Арк",
-		"description": "Новый город Арк, созданный на основе фольклора народов крайнего севера.",
-		"translations": [
+	"russian" : {
+		"name" : "Арк",
+		"description" : "Новый город Арк, созданный на основе фольклора народов крайнего севера.",
+		"translations" : [
 			"translation/ark/russian.json"
 		]
 	},
-	"polish": {
-		"name": "Lodowiec",
-		"description": "Nowe miasto Lodowiec, stworzone na bazie folkloru ludów dalekiej północy",
-		"translations": [
+	"polish" : {
+		"name" : "Lodowiec",
+		"description" : "Nowe miasto Lodowiec, stworzone na bazie folkloru ludów dalekiej północy",
+		"translations" : [
 			"translation/ark/polish.json"
 		]
 	},
-    "chinese": {
-		"name": "方舟城",
-		"description": "新城镇方舟，基于极北民族的民间传说创作。",
-		"translations": [
+	"chinese" : {
+		"name" : "方舟城",
+		"description" : "新城镇方舟，基于极北民族的民间传说创作。",
+		"translations" : [
 			"translation/ark/chinese.json"
 		]
 	},
-	"changelog": {
-		"1.0.5": [ "Update to vcmi-1.7 format"],
-		"1.0.4": [ "Fixes for banks"],
-		"1.0.3": [ "Fixed Polish translation integrity with original game version by Yoshiro."],
-        "1.0.2": [ "Polish translation by FallainBlack"],
-		"1.0.1": [ "Fix Grail not to produce gold"],
-		"1.0.0": [ "Initial release"]
+	"changelog" : {
+		"1.0.5" : [
+			"Update to vcmi-1.7 format"
+		],
+		"1.0.4" : [
+			"Fixes for banks"
+		],
+		"1.0.3" : [
+			"Fixed Polish translation integrity with original game version by Yoshiro."
+		],
+		"1.0.2" : [
+			"Polish translation by FallainBlack"
+		],
+		"1.0.1" : [
+			"Fix Grail not to produce gold"
+		],
+		"1.0.0" : [
+			"Initial release"
+		]
 	},
-	"factions": [
+	"factions" : [
 		"config/ark/town/faction.json",
 		"config/ark/town/buildings.json",
 		"config/ark/town/structures.json",
@@ -47,7 +64,7 @@
 		"config/ark/town/siege.json",
 		"config/ark/town/puzzle.json"
 	],
-	"creatures": [
+	"creatures" : [
 		"config/ark/creatures/frostling.json",
 		"config/ark/creatures/frostling_up.json",
 		"config/ark/creatures/inuk.json",
@@ -69,11 +86,11 @@
 		"config/ark/creatures/penguin.json",
 		"config/ark/creatures/construct.json"
 	],
-	"heroClasses": [
+	"heroClasses" : [
 		"config/ark/classes/angakok.json",
 		"config/ark/classes/oracle.json"
 	],
-	"heroes": [
+	"heroes" : [
 		"config/ark/heroes/auril.json",
 		"config/ark/heroes/ayotar.json",
 		"config/ark/heroes/cycyrn.json",
@@ -92,7 +109,7 @@
 		"config/ark/heroes/uki.json",
 		"config/ark/heroes/vayl.json"
 	],
-	"objects": [
+	"objects" : [
 		"config/ark/dwellings.json",
 		"config/ark/banks/archive.json",
 		"config/ark/banks/yaranga.json"

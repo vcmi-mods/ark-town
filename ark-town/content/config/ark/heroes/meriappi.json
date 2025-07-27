@@ -1,43 +1,43 @@
 {
-	"ark_meriappi": {
-		"army": [
+	"ark_meriappi" : {
+		"army" : [
 			{
-				"creature": "ark_frostling_lvl1",
-				"max": 25,
-				"min": 15
+				"creature" : "ark_frostling_lvl1",
+				"max" : 25,
+				"min" : 15
 			},
 			{
-				"creature": "ark_inuk_lvl2",
-				"max": 9,
-				"min": 7
+				"creature" : "ark_inuk_lvl2",
+				"max" : 9,
+				"min" : 7
 			},
 			{
-				"creature": "ark_rider_lvl4",
+				"creature" : "ark_rider_lvl4",
 				"max" : 4,
 				"min" : 2
 			}
 		],
-		"female": true,
-		"class": "ark_angakok",
-		"images": {
-			"large": "ark/heroes/meriappi/Meriappi-Big.bmp",
-			"small": "ark/heroes/meriappi/Meriappi-Small.bmp",
-			"specialtyLarge": "ark/heroes/meriappi/MeriappiSpec.png",
-			"specialtySmall": "ark/heroes/meriappi/MeriappiSpecS.png"
+		"female" : true,
+		"class" : "ark_angakok",
+		"images" : {
+			"large" : "ark/heroes/meriappi/Meriappi-Big.bmp",
+			"small" : "ark/heroes/meriappi/Meriappi-Small.bmp",
+			"specialtyLarge" : "ark/heroes/meriappi/MeriappiSpec.png",
+			"specialtySmall" : "ark/heroes/meriappi/MeriappiSpecS.png"
 		},
-		"skills": [
+		"skills" : [
 			{
-				"level": "basic",
-				"skill": "leadership"
+				"level" : "basic",
+				"skill" : "leadership"
 			}
 		],
 		"specialty" : {
 			"creature" : "ark_rider_lvl4"
 		},
-		"texts": {
-			"biography": "Meriappi always had a thirst for adventure, and, being a member of a nomadic northern tribe, she received these very adventures in abundance. All her life she was surrounded by powerful and fast animals that could carry their wandering settlement from one place to another for days on end, and therefore she learned to find a common language with them, which allowed her to become one of the best riders in the north.",
-			"name": "Meriappi",
-			"specialty": {
+		"texts" : {
+			"biography" : "Meriappi always had a thirst for adventure, and, being a member of a nomadic northern tribe, she received these very adventures in abundance. All her life she was surrounded by powerful and fast animals that could carry their wandering settlement from one place to another for days on end, and therefore she learned to find a common language with them, which allowed her to become one of the best riders in the north.",
+			"name" : "Meriappi",
+			"specialty" : {
 				"description" : "Increases the Attack and Defense skills of any Ram Riders and Rhino Riders she commands for each level attainded after 3th level.",
 				"tooltip" : "Creature bonus: Ram Riders",
 				"name" : "Ram Riders"

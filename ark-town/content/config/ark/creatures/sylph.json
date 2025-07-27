@@ -1,70 +1,70 @@
 {
-	"ark_sylph_lvl5": {
-		"name": {
-			"singular": "Sylph",
-			"plural": "Sylphs"
+	"ark_sylph_lvl5" : {
+		"name" : {
+			"singular" : "Sylph",
+			"plural" : "Sylphs"
 		},
-		"upgrades": [
+		"upgrades" : [
 			"ark_sylph_lvl5_up"
 		],
-		"level": 5,
-		"special": false,
-		"faction": "ark",
-		"cost": {
-			"wood": 0,
-			"mercury": 0,
-			"ore": 0,
-			"sulfur": 0,
-			"crystal": 0,
-			"gems": 0,
-			"gold": 550
+		"level" : 5,
+		"special" : false,
+		"faction" : "ark",
+		"cost" : {
+			"wood" : 0,
+			"mercury" : 0,
+			"ore" : 0,
+			"sulfur" : 0,
+			"crystal" : 0,
+			"gems" : 0,
+			"gold" : 550
 		},
-		"fightValue": 682,
-		"aiValue": 886,
-		"growth": 3,
-		"attack": 12,
-		"defense": 13,
-		"hitPoints": 40,
-		"speed": 7,
-		"damage": {
-			"min": 13,
-			"max": 16
+		"fightValue" : 682,
+		"aiValue" : 886,
+		"growth" : 3,
+		"attack" : 12,
+		"defense" : 13,
+		"hitPoints" : 40,
+		"speed" : 7,
+		"damage" : {
+			"min" : 13,
+			"max" : 16
 		},
-		"spellPoints": 0,
-		"advMapAmount": {
-			"max": 13,
-			"min": 9
+		"spellPoints" : 0,
+		"advMapAmount" : {
+			"max" : 13,
+			"min" : 9
 		},
-		"doubleWide": false,
-		"abilities": {
-			"AirImmunity": {
-				"type": "SPELL_SCHOOL_IMMUNITY",
+		"doubleWide" : false,
+		"abilities" : {
+			"AirImmunity" : {
+				"type" : "SPELL_SCHOOL_IMMUNITY",
 				"subtype" : "air"
-				  },
-			"Mirror": {
-				"type": "MAGIC_MIRROR",
-				"val": 30
-				  }
-			     },
-		"hasDoubleWeek": true,
-		"graphics": {
-			"animation": "ark/creatures/battle/sylph.def",
-			"map": "ark/creatures/adventure/sylph.def",
-			"iconSmall": "ark/creatures/icon/sylph.bmp",
-			"iconLarge": "ark/creatures/portrait/sylph.bmp",
-			"timeBetweenFidgets": 1.00,
-			"animationTime": {
-				"walk": 1.4,
-				"idle": 10.00,
-				"attack": 1
+			},
+			"Mirror" : {
+				"type" : "MAGIC_MIRROR",
+				"val" : 30
 			}
 		},
-		"sound": {
-			"attack": "ark/sylatk.wav",
-			"defend": "ark/sylhit.wav",
-			"killed": "ark/syldie.wav",
-			"move": "ark/sylwlk.wav",
-			"wince": "ark/sylhit.wav"
+		"hasDoubleWeek" : true,
+		"graphics" : {
+			"animation" : "ark/creatures/battle/sylph.def",
+			"map" : "ark/creatures/adventure/sylph.def",
+			"iconSmall" : "ark/creatures/icon/sylph.bmp",
+			"iconLarge" : "ark/creatures/portrait/sylph.bmp",
+			"timeBetweenFidgets" : 1.0,
+			"animationTime" : {
+				"walk" : 1.4,
+				"idle" : 10.0,
+				"attack" : 1
+			}
+		},
+		"sound" : {
+			"attack" : "ark/sylatk.wav",
+			"defend" : "ark/sylhit.wav",
+			"killed" : "ark/syldie.wav",
+			"move" : "ark/sylwlk.wav",
+			"wince" : "ark/sylhit.wav"
 		}
 	}
 }

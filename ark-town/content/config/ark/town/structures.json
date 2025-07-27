@@ -1,4 +1,4 @@
-{ 
+{
 	"ark" : {
 		"town" : {
 			"structures" : {
@@ -49,7 +49,7 @@
 					"x" : 0,
 					"y" : 0,
 					"z" : 0
-				},				
+				},
 				"castle" : {
 					"animation" : "ark/buildings/Castle",
 					"area" : "ark/town/area/CastleA",
@@ -89,7 +89,7 @@
 					"x" : 0,
 					"y" : 0,
 					"z" : 2
-				},				
+				},
 				"blacksmith" : {
 					"animation" : "ark/buildings/Blacksmith",
 					"area" : "ark/town/area/BlacksmithA",
@@ -121,7 +121,7 @@
 					"x" : 0,
 					"y" : 0,
 					"z" : 0
-				},			
+				},
 				"dwellingUpLvl1" : {
 					"animation" : "ark/buildings/IglooUp",
 					"area" : "ark/town/area/IglooUpA",
@@ -230,8 +230,6 @@
 					"z" : 1
 				},
 
-
-
 				"horde3" : {
 					"animation" : "ark/buildings/IceFreeRiver",
 					"area" : "ark/town/area/IceFreeRiverA",
@@ -252,8 +250,6 @@
 					"z" : 2
 				},
 
-
-
 				"dwellingLvl7" : {
 					"animation" : "ark/buildings/SacredLair",
 					"area" : "ark/town/area/SacredLairA",
@@ -261,7 +257,7 @@
 					"x" : 0,
 					"y" : 0,
 					"z" : 1
-				},	
+				},
 				"dwellingUpLvl7" : {
 					"animation" : "ark/buildings/SacredLairUp",
 					"area" : "ark/town/area/SacredLairUpA",
@@ -276,15 +272,15 @@
 					"border" : "ark/town/border/SanctuaryB",
 					"x" : 0,
 					"y" : 0,
-					"z" : 1,
-				},		
+					"z" : 1
+				},
 				"special3" : {
 					"animation" : "ark/buildings/FrostyRune",
 					"area" : "ark/town/area/FrostyRuneA",
 					"border" : "ark/town/border/FrostyRuneB",
 					"x" : 0,
 					"y" : 0,
-					"z" : 4,
+					"z" : 4
 				},
 				"special4" : {
 					"animation" : "ark/buildings/DancingBoulders",
@@ -292,8 +288,8 @@
 					"border" : "ark/town/border/DancingBouldersB",
 					"x" : 0,
 					"y" : 0,
-					"z" : 4,
-				},		
+					"z" : 4
+				},
 				"grail" : {
 					"animation" : "ark/buildings/Glacier",
 					"area" : "ark/town/area/GlacierA",
@@ -302,7 +298,6 @@
 					"y" : 0,
 					"z" : 1
 				},
-
 
 				"dwellingLvl6B" : {
 					"animation" : "ark/buildings/CreepyCave",

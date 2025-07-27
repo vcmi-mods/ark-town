@@ -1,72 +1,72 @@
 {
-	"ark_frostling_lvl1_up": {
-		"name": {
-			"singular": "Frostling Tracker",
-			"plural": "Frostling Trackers"
+	"ark_frostling_lvl1_up" : {
+		"name" : {
+			"singular" : "Frostling Tracker",
+			"plural" : "Frostling Trackers"
 		},
-		"level": 1,
-		"special": false,
-		"faction": "ark",
-		"cost": {
-			"wood": 0,
-			"mercury": 0,
-			"ore": 0,
-			"sulfur": 0,
-			"crystal": 0,
-			"gems": 0,
-			"gold": 40
+		"level" : 1,
+		"special" : false,
+		"faction" : "ark",
+		"cost" : {
+			"wood" : 0,
+			"mercury" : 0,
+			"ore" : 0,
+			"sulfur" : 0,
+			"crystal" : 0,
+			"gems" : 0,
+			"gold" : 40
 		},
-		"fightValue": 58,
-		"aiValue": 55,
-		"growth": 16,
-		"horde": 9,
-		"attack": 5,
-		"defense": 5,
-		"hitPoints": 4,
-		"shots": 10,
-		"speed": 5,
-		"damage": {
-			"min": 1,
-			"max": 2
+		"fightValue" : 58,
+		"aiValue" : 55,
+		"growth" : 16,
+		"horde" : 9,
+		"attack" : 5,
+		"defense" : 5,
+		"hitPoints" : 4,
+		"shots" : 10,
+		"speed" : 5,
+		"damage" : {
+			"min" : 1,
+			"max" : 2
 		},
-		"spellPoints": 0,
-		"advMapAmount": {
-			"max": 45,
-			"min": 16
+		"spellPoints" : 0,
+		"advMapAmount" : {
+			"max" : 45,
+			"min" : 16
 		},
-		"doubleWide": false,
-		"abilities": {
-			"shooter": {
-				"type": "SHOOTER"
+		"doubleWide" : false,
+		"abilities" : {
+			"shooter" : {
+				"type" : "SHOOTER"
 			},
-			"shooterBonus": {
-				"type": "BLOCKS_RANGED_RETALIATION"
+			"shooterBonus" : {
+				"type" : "BLOCKS_RANGED_RETALIATION"
 			}
-		},	
-		"hasDoubleWeek": false,
-		"graphics": {
-			"animation": "ark/creatures/battle/frostlingUp.def",
-			"map": "ark/creatures/adventure/frostlingUp.def",
-			"iconSmall": "ark/creatures/icon/frostlingUp.bmp",
-			"iconLarge": "ark/creatures/portrait/frostlingUp.bmp",
-			"timeBetweenFidgets": 1.00,
-			"animationTime": {
-				"walk": 1,
-				"idle": 10.00,
-				"attack": 1
+		},
+		"hasDoubleWeek" : false,
+		"graphics" : {
+			"animation" : "ark/creatures/battle/frostlingUp.def",
+			"map" : "ark/creatures/adventure/frostlingUp.def",
+			"iconSmall" : "ark/creatures/icon/frostlingUp.bmp",
+			"iconLarge" : "ark/creatures/portrait/frostlingUp.bmp",
+			"timeBetweenFidgets" : 1.0,
+			"animationTime" : {
+				"walk" : 1,
+				"idle" : 10.0,
+				"attack" : 1
 			},
-			"missile": {
-				"attackClimaxFrame": 5,
-				"projectile": "ark/projectiles/FROSTSHOT.def",
-				"offset": {
-					"lowerX": 28,
-					"lowerY": 3,
-					"middleX": 62,
-					"middleY": -53,
-					"upperX": 37,
-					"upperY": -98
+			"missile" : {
+				"attackClimaxFrame" : 5,
+				"projectile" : "ark/projectiles/FROSTSHOT.def",
+				"offset" : {
+					"lowerX" : 28,
+					"lowerY" : 3,
+					"middleX" : 62,
+					"middleY" : -53,
+					"upperX" : 37,
+					"upperY" : -98
 				},
-				"frameAngles": [
+				"frameAngles" : [
 					-90,
 					-45,
 					0,
@@ -75,13 +75,13 @@
 				]
 			}
 		},
-		"sound": {
-			"attack": "HALFATTK.wav",
-			"defend": "HALFDFND.wav",
-			"killed": "HALFKILL.wav",
-			"move": "HALFMOVE.wav",
-			"shoot": "HALFSHOT.wav",
-			"wince": "HALFWNCE.wav"
+		"sound" : {
+			"attack" : "HALFATTK.wav",
+			"defend" : "HALFDFND.wav",
+			"killed" : "HALFKILL.wav",
+			"move" : "HALFMOVE.wav",
+			"shoot" : "HALFSHOT.wav",
+			"wince" : "HALFWNCE.wav"
 		}
 	}
 }

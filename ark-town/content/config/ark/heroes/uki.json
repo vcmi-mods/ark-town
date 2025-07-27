@@ -1,53 +1,53 @@
 {
-	"ark_uki": {
-		"army": [
+	"ark_uki" : {
+		"army" : [
 			{
-				"creature": "ark_frostling_lvl1",
-				"max": 25,
-				"min": 15
+				"creature" : "ark_frostling_lvl1",
+				"max" : 25,
+				"min" : 15
 			},
 			{
-				"creature": "ark_inuk_lvl2",
-				"max": 9,
-				"min": 7
+				"creature" : "ark_inuk_lvl2",
+				"max" : 9,
+				"min" : 7
 			},
 			{
-				"creature": "ark_ram_lvl3",
+				"creature" : "ark_ram_lvl3",
 				"max" : 6,
 				"min" : 4
 			}
 		],
-		"female": true,
-		"class": "ark_oracle",
-		"spellbook": [
+		"female" : true,
+		"class" : "ark_oracle",
+		"spellbook" : [
 			"cure"
 		],
-		"images": {
-			"large": "ark/heroes/uki/Uki-Big.bmp",
-			"small": "ark/heroes/uki/Uki-Small.bmp",
-			"specialtyLarge": "ark/heroes/uki/UkiSpec.bmp",
-			"specialtySmall": "ark/heroes/uki/UkiSpecS.bmp"
+		"images" : {
+			"large" : "ark/heroes/uki/Uki-Big.bmp",
+			"small" : "ark/heroes/uki/Uki-Small.bmp",
+			"specialtyLarge" : "ark/heroes/uki/UkiSpec.bmp",
+			"specialtySmall" : "ark/heroes/uki/UkiSpecS.bmp"
 		},
-		"skills": [	
+		"skills" : [
 			{
-				"level": "basic",
-				"skill": "firstAid"
+				"level" : "basic",
+				"skill" : "firstAid"
 			},
 			{
-				"level": "basic",
-				"skill": "wisdom"
+				"level" : "basic",
+				"skill" : "wisdom"
 			}
 		],
 		"specialty" : {
 			"secondary" : "firstAid"
 		},
-		"texts": {
-			"biography": "As a novice at the Sylph Academy, Uki had been practicing the magical skills of her people since her youth, but she was not interested in the formidable spells of wind and cold, she did not want to take other people's lives, but wanted to save them. She put all her talent into studying healing spells and managed to save many representatives of the northern peoples, literally pulling them back from the other world.",
-			"name": "Uki",
-			"specialty": {
-				"tooltip": "Secondary Skill Bonus: First Aid",
-				"name": "First Aid",
-				"description": "Receives a 5% per level bonus to First Aid skill percentage."
+		"texts" : {
+			"biography" : "As a novice at the Sylph Academy, Uki had been practicing the magical skills of her people since her youth, but she was not interested in the formidable spells of wind and cold, she did not want to take other people's lives, but wanted to save them. She put all her talent into studying healing spells and managed to save many representatives of the northern peoples, literally pulling them back from the other world.",
+			"name" : "Uki",
+			"specialty" : {
+				"tooltip" : "Secondary Skill Bonus: First Aid",
+				"name" : "First Aid",
+				"description" : "Receives a 5% per level bonus to First Aid skill percentage."
 			}
 		}
 	}

@@ -1,47 +1,47 @@
 {
-	"ark_demon_lvl6": {
-		"name": {
-			"singular": "Ice Deamon",
-			"plural": "Ice Deamons"
+	"ark_demon_lvl6" : {
+		"name" : {
+			"singular" : "Ice Deamon",
+			"plural" : "Ice Deamons"
 		},
-		"upgrades": [
+		"upgrades" : [
 			"ark_demon_lvl6_up"
 		],
-		"level": 6,
-		"special": false,
-		"faction": "ark",
-		"cost": {
-			"wood": 0,
-			"mercury": 0,
-			"ore": 0,
-			"sulfur": 0,
-			"crystal": 0,
-			"gems": 0,
-			"gold": 900
+		"level" : 6,
+		"special" : false,
+		"faction" : "ark",
+		"cost" : {
+			"wood" : 0,
+			"mercury" : 0,
+			"ore" : 0,
+			"sulfur" : 0,
+			"crystal" : 0,
+			"gems" : 0,
+			"gold" : 900
 		},
-		"fightValue": 1415,
-		"aiValue": 1675,
-		"growth": 2,
-		"attack": 16,
-		"defense": 14,
-		"hitPoints": 95,
-		"speed": 9,
-		"damage": {
-			"min": 16,
-			"max": 24
+		"fightValue" : 1415,
+		"aiValue" : 1675,
+		"growth" : 2,
+		"attack" : 16,
+		"defense" : 14,
+		"hitPoints" : 95,
+		"speed" : 9,
+		"damage" : {
+			"min" : 16,
+			"max" : 24
 		},
 		"horde" : 2,
-		"spellPoints": 0,
-		"advMapAmount": {
-			"max": 12,
-			"min": 5
+		"spellPoints" : 0,
+		"advMapAmount" : {
+			"max" : 12,
+			"min" : 5
 		},
-		"doubleWide": false,
-		"abilities": {
-			"Defensive": {
-				"type": "DEFENSIVE_STANCE",
-				"val": 3
-				    },
+		"doubleWide" : false,
+		"abilities" : {
+			"Defensive" : {
+				"type" : "DEFENSIVE_STANCE",
+				"val" : 3
+			},
 			"fearless" : {
 				"type" : "FEARFUL",
 				"valueType" : "INDEPENDENT_MIN",
@@ -49,25 +49,25 @@
 				"description" : "{Fearless}\nImmune to Fear ability",
 				"icon" : "ark/icons/bonuses/e_fearl.png"
 			},
-			"Reduction": {
-				"type": "GENERAL_DAMAGE_REDUCTION",
-				"val": 5
-				    }
-			     },
-		"hasDoubleWeek": true,
-		"graphics": {
-			"animation": "ark/creatures/battle/icedemon.def",
-			"map": "ark/creatures/adventure/icedemon.def",
-			"iconSmall": "ark/creatures/icon/icedemon.bmp",
-			"iconLarge": "ark/creatures/portrait/icedemon.bmp",
-			"timeBetweenFidgets": 1.00,
-			"animationTime": {
-				"walk": 1.1,
-				"idle": 10.00,
-				"attack": 1.3
+			"Reduction" : {
+				"type" : "GENERAL_DAMAGE_REDUCTION",
+				"val" : 5
 			}
 		},
-		"sound": {
+		"hasDoubleWeek" : true,
+		"graphics" : {
+			"animation" : "ark/creatures/battle/icedemon.def",
+			"map" : "ark/creatures/adventure/icedemon.def",
+			"iconSmall" : "ark/creatures/icon/icedemon.bmp",
+			"iconLarge" : "ark/creatures/portrait/icedemon.bmp",
+			"timeBetweenFidgets" : 1.0,
+			"animationTime" : {
+				"walk" : 1.1,
+				"idle" : 10.0,
+				"attack" : 1.3
+			}
+		},
+		"sound" : {
 			"attack" : "ark/icedematk.wav",
 			"defend" : "ark/icedemhit.wav",
 			"killed" : "ark/icedemdie.wav",

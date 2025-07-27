@@ -1,50 +1,50 @@
 {
-	"ark_queldor": {
-		"army": [
+	"ark_queldor" : {
+		"army" : [
 			{
-				"creature": "ark_frostling_lvl1",
-				"max": 25,
-				"min": 15
+				"creature" : "ark_frostling_lvl1",
+				"max" : 25,
+				"min" : 15
 			},
 			{
-				"creature": "ark_inuk_lvl2",
-				"max": 9,
-				"min": 7
+				"creature" : "ark_inuk_lvl2",
+				"max" : 9,
+				"min" : 7
 			},
 			{
-				"creature": "ark_ram_lvl3",
+				"creature" : "ark_ram_lvl3",
 				"max" : 6,
 				"min" : 4
 			}
 		],
-		"female": false,
-		"class": "ark_oracle",
-		"spellbook": [
+		"female" : false,
+		"class" : "ark_oracle",
+		"spellbook" : [
 			"cure"
 		],
-		"images": {
-			"large": "ark/heroes/queldor/Queldor-Big.bmp",
-			"small": "ark/heroes/queldor/Queldor-Small.bmp",
-			"specialtyLarge": "ark/heroes/queldor/QueldorSpec.png",
-			"specialtySmall": "ark/heroes/queldor/QueldorSpecS.png"
+		"images" : {
+			"large" : "ark/heroes/queldor/Queldor-Big.bmp",
+			"small" : "ark/heroes/queldor/Queldor-Small.bmp",
+			"specialtyLarge" : "ark/heroes/queldor/QueldorSpec.png",
+			"specialtySmall" : "ark/heroes/queldor/QueldorSpecS.png"
 		},
-		"skills": [
+		"skills" : [
 			{
-				"level": "basic",
-				"skill": "offence"
+				"level" : "basic",
+				"skill" : "offence"
 			},
 			{
-				"level": "basic",
-				"skill": "tactics"
+				"level" : "basic",
+				"skill" : "tactics"
 			}
 		],
 		"specialty" : {
 			"creature" : "ark_demon_lvl6"
 		},
-		"texts": {
-			"biography": "Queldor was struck by the heart of the ice mountains a long time ago, but by the standards of ice demons he is still young, and, as practice shows, he is quite eager for glorious battles. Other ice demons prefer to stay away from the settlements of the serven tribes, but their warlike brother spends almost all his time outside their domains in search of worthy opponents.",
-			"name": "Queldor",
-			"specialty": {
+		"texts" : {
+			"biography" : "Queldor was struck by the heart of the ice mountains a long time ago, but by the standards of ice demons he is still young, and, as practice shows, he is quite eager for glorious battles. Other ice demons prefer to stay away from the settlements of the serven tribes, but their warlike brother spends almost all his time outside their domains in search of worthy opponents.",
+			"name" : "Queldor",
+			"specialty" : {
 				"description" : "Increases Speed of any Ice Demons and Greater Ice Demons by 1 and their Attack and Defense skills by 5% for every 3 levels (rounded up).",
 				"tooltip" : "Creature bonus: Ice Demons",
 				"name" : "Ice Demons"

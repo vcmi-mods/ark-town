@@ -1,47 +1,47 @@
 {
-	"ark_hanta": {
-		"army": [
+	"ark_hanta" : {
+		"army" : [
 			{
-				"creature": "ark_frostling_lvl1",
-				"max": 25,
-				"min": 20
+				"creature" : "ark_frostling_lvl1",
+				"max" : 25,
+				"min" : 20
 			},
 			{
-				"creature": "ark_inuk_lvl2",
+				"creature" : "ark_inuk_lvl2",
 				"max" : 9,
 				"min" : 7
 			},
 			{
-				"creature": "ark_inuk_lvl2",
+				"creature" : "ark_inuk_lvl2",
 				"max" : 9,
 				"min" : 7
 			}
 		],
-		"class": "ark_oracle",
+		"class" : "ark_oracle",
 		"female" : false,
-		"images": {
-			"large": "ark/heroes/hanta/Hanta-Big.bmp",
-			"small": "ark/heroes/hanta/Hanta-Small.bmp",
-			"specialtyLarge": "ark/heroes/hanta/HantaSpec.png",
-			"specialtySmall": "ark/heroes/hanta/HantaSpecS.png"
+		"images" : {
+			"large" : "ark/heroes/hanta/Hanta-Big.bmp",
+			"small" : "ark/heroes/hanta/Hanta-Small.bmp",
+			"specialtyLarge" : "ark/heroes/hanta/HantaSpec.png",
+			"specialtySmall" : "ark/heroes/hanta/HantaSpecS.png"
 		},
-		"skills": [
+		"skills" : [
 			{
-				"level": "basic",
-				"skill": "archery"
+				"level" : "basic",
+				"skill" : "archery"
 			},
 			{
-				"level": "basic",
-				"skill": "leadership"
+				"level" : "basic",
+				"skill" : "leadership"
 			}
 		],
-		"specialty": {
-			"creature": "ark_inuk_lvl2"
+		"specialty" : {
+			"creature" : "ark_inuk_lvl2"
 		},
-		"texts": {
-			"biography": "A secretive lone hero who conducts his activities to protect the northern lands, independently of other tribes. Hanta chose the path of a hunter, managing to rally a small group of other hunters around himself in order to together protect the borders of the north from the barbarians of the Highlands and no less dangerous neighbors from the south.",
-			"name": "Hanta",
-			"specialty": {
+		"texts" : {
+			"biography" : "A secretive lone hero who conducts his activities to protect the northern lands, independently of other tribes. Hanta chose the path of a hunter, managing to rally a small group of other hunters around himself in order to together protect the borders of the north from the barbarians of the Highlands and no less dangerous neighbors from the south.",
+			"name" : "Hanta",
+			"specialty" : {
 				"description" : "Increases the Attack and Defense skills of any Inuk Hunters he commands for each level attainded after 6th level.",
 				"tooltip" : "Creature bonus: Inuks",
 				"name" : "Inuks"

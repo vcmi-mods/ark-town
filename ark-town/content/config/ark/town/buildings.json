@@ -1,397 +1,610 @@
-{ 
+{
 	"ark" : {
 		"town" : {
-			"buildingsIcons": "ark/townhall.def",
+			"buildingsIcons" : "ark/townhall.def",
 			"buildings" : {
 				"blacksmith" : {
-					"cost" : { "gold" : 1000, "wood" : 5 },
+					"cost" : {
+						"gold" : 1000,
+						"wood" : 5
+					},
 					"description" : "The Blacksmith provides your armies with Supply Carts.",
-					
+
 					"warMachine" : "ammoCart",
 					"name" : "Blacksmith"
 				},
 				"capitol" : {
-					"cost" : { "gold" : 10000 },
+					"cost" : {
+						"gold" : 10000
+					},
 					"description" : "The Capitol earns your kingdom 4000 gold per day.",
-					
+
 					"name" : "Capitol",
-					"requires" : [ "castle" ]
+					"requires" : [
+						"castle"
+					]
 				},
 				"castle" : {
-					"cost" : { "gold" : 5000, "ore" : 10, "wood" : 10 },
+					"cost" : {
+						"gold" : 5000,
+						"ore" : 10,
+						"wood" : 10
+					},
 					"description" : "The Castle adds two arrow towers, fortifies your town's defenses, and doubles base creature growth.",
-					
+
 					"name" : "Castle"
 				},
 				"citadel" : {
-					"cost" : { "gold" : 2500, "ore" : 5 },
+					"cost" : {
+						"gold" : 2500,
+						"ore" : 5
+					},
 					"description" : "Including a 50% increase to base creature growth, the Citadel adds a keep, and other terrain obstacles, to a town's defenses.",
-					
+
 					"name" : "Citadel"
 				},
 				"cityHall" : {
-					"cost" : { "gold" : 5000 },
+					"cost" : {
+						"gold" : 5000
+					},
 					"description" : "The City Hall allows you to purchase town structures and earns your kingdom 2000 gold per day.",
-					
+
 					"name" : "City Hall"
 				},
 				"dwellingLvl1" : {
-					"cost" : { "gold" : 500,"ore" : 10 },
+					"cost" : {
+						"gold" : 500,
+						"ore" : 10
+					},
 					"description" : "The Igloo allows you to recruit Frostlings.",
-					
+
 					"name" : "Igloo",
-					"requires" : [ "fort" ]
+					"requires" : [
+						"fort"
+					]
 				},
 				"dwellingLvl2" : {
-					"cost" : { "gold" : 1000, "wood" : 5, "ore" : 5 },
+					"cost" : {
+						"gold" : 1000,
+						"wood" : 5,
+						"ore" : 5
+					},
 					"description" : "The FrozenVillage allow you to recruit Inuks.",
-					
+
 					"name" : "Frozen Village",
-					"requires" : [ "dwellingLvl1" ]
+					"requires" : [
+						"dwellingLvl1"
+					]
 				},
 				"dwellingLvl3" : {
-					"cost" : { "gold" : 1000, "ore" : 10 },
+					"cost" : {
+						"gold" : 1000,
+						"ore" : 10
+					},
 					"description" : "The Ram Rocks allows you to recruit Mountain Rams.",
-					
+
 					"name" : "Ram Rocks",
-					"requires" : [ "allOf", [ "dwellingLvl1" ], [ "blacksmith" ]]
+					"requires" : [
+						"allOf",
+						[
+							"dwellingLvl1"
+						],
+						[
+							"blacksmith"
+						]
+					]
 				},
-				"dwellingLvl4" :
-				{
+				"dwellingLvl4" : {
 					"description" : "The Animal Lair allows you to recruit Ram Riders.",
 					"name" : "Animal Lair",
-					"cost" : { "gold" : 1000, "ore" : 5 },
-					"requires" : [ "dwellingLvl3" ],
-					
-				},				
+					"cost" : {
+						"gold" : 1000,
+						"ore" : 5
+					},
+					"requires" : [
+						"dwellingLvl3"
+					]
+				},
 				"dwellingLvl5" : {
-					"cost" : { "gems" : 4, "gold" : 2500, "ore" : 5 },
+					"cost" : {
+						"gems" : 4,
+						"gold" : 2500,
+						"ore" : 5
+					},
 					"description" : "The Palace Of Cold allows you to recruit Sylphs.",
-					
+
 					"name" : "Palace Of Cold",
-					"requires" : [ "allOf", [ "dwellingLvl2" ], [ "mageGuild1" ], [ "dwellingLvl3" ] ]
+					"requires" : [
+						"allOf",
+						[
+							"dwellingLvl2"
+						],
+						[
+							"mageGuild1"
+						],
+						[
+							"dwellingLvl3"
+						]
+					]
 				},
 				"dwellingLvl6" : {
-					"cost" : { "gold" : 3000, "ore" : 5, "wood" : 5 },
+					"cost" : {
+						"gold" : 3000,
+						"ore" : 5,
+						"wood" : 5
+					},
 					"description" : "The Ice Cave allow you to recruit Ice Demons.",
-					
+
 					"name" : "Ice Cave",
-					"requires" : [ "allOf", [ "dwellingLvl4" ], [ "noneOf", [ "dwellingLvl6B" ] ] ]
+					"requires" : [
+						"allOf",
+						[
+							"dwellingLvl4"
+						],
+						[
+							"noneOf",
+							[
+								"dwellingLvl6B"
+							]
+						]
+					]
 				},
 				"dwellingLvl6B" : {
-					"cost" : { "mercury" : 4,"sulfur" : 2, "crystal" : 2, "gems" : 2, "gold" : 4500, "ore" : 5, "wood" : 5 },
+					"cost" : {
+						"mercury" : 4,
+						"sulfur" : 2,
+						"crystal" : 2,
+						"gems" : 2,
+						"gold" : 4500,
+						"ore" : 5,
+						"wood" : 5
+					},
 					"description" : "The Creepy Cave allows you to recruit Snow Monsters.",
 					"id" : 49,
 					"name" : "Creepy Cave",
-					"requires" : [ "allOf", [ "dwellingLvl4" ], [ "noneOf", [ "dwellingLvl6" ] ] ]
+					"requires" : [
+						"allOf",
+						[
+							"dwellingLvl4"
+						],
+						[
+							"noneOf",
+							[
+								"dwellingLvl6"
+							]
+						]
+					]
 				},
 				"dwellingLvl7" : {
-					"cost" : { "gold" : 7500, "ore" : 10, "mercury" : 5, "crystal" : 5, "wood" : 10 },
+					"cost" : {
+						"gold" : 7500,
+						"ore" : 10,
+						"mercury" : 5,
+						"crystal" : 5,
+						"wood" : 10
+					},
 					"description" : "The Sacred Lair allows you to recruit Ice Giants.",
-					
+
 					"name" : "Sacred Lair",
-					"requires" : [ "allOf", [ "dwellingLvl5" ], [ "anyOf", [ "dwellingLvl6" ], [ "dwellingLvl6B" ] ] ] 
+					"requires" : [
+						"allOf",
+						[
+							"dwellingLvl5"
+						],
+						[
+							"anyOf",
+							[
+								"dwellingLvl6"
+							],
+							[
+								"dwellingLvl6B"
+							]
+						]
+					]
 				},
 				"dwellingUpLvl1" : {
-					"cost" : { "gold" : 1000, "ore" : 5 },
+					"cost" : {
+						"gold" : 1000,
+						"ore" : 5
+					},
 					"description" : "The Igloo allows you to recruit Frostling Trackers.",
-					
+
 					"name" : "Upg. Igloo",
-					"requires" : [ "tavern" ],
+					"requires" : [
+						"tavern"
+					],
 					"upgrades" : "dwellingLvl1"
 				},
 				"dwellingUpLvl2" : {
-					"cost" : { "gold" : 1000, "wood" : 10 },
+					"cost" : {
+						"gold" : 1000,
+						"wood" : 10
+					},
 					"description" : "The Frozen Village allow you to recruit Inuk Hunters.",
-					
+
 					"name" : "Upg. Frozen Village",
-					"requires" : [ "blacksmith" ],
+					"requires" : [
+						"blacksmith"
+					],
 					"upgrades" : "dwellingLvl2"
 				},
 				"dwellingUpLvl3" : {
-					"cost" : { "gold" : 1000, "sulfur" : 5 },
+					"cost" : {
+						"gold" : 1000,
+						"sulfur" : 5
+					},
 					"description" : "The Ram Rocks allows you to recruit Argali.",
-					
+
 					"name" : "Upg. Ram Rocks",
 					"upgrades" : "dwellingLvl3"
 				},
-				"dwellingUpLvl4" :
-				{
+				"dwellingUpLvl4" : {
 					"description" : "The Animal Lair allows you to recruit Rhino Riders.",
 					"name" : "Upg. Animal Lair",
-					
-					"cost" : { "crystal" : 5, "gold" : 1500 },
+
+					"cost" : {
+						"crystal" : 5,
+						"gold" : 1500
+					},
 					"upgrades" : "dwellingLvl4",
-					"requires" : [ "blacksmith" ]
-				},				
+					"requires" : [
+						"blacksmith"
+					]
+				},
 				"dwellingUpLvl5" : {
-					"cost" : { "crystal" : 5, "gold" : 2000, "ore" : 5 },
+					"cost" : {
+						"crystal" : 5,
+						"gold" : 2000,
+						"ore" : 5
+					},
 					"description" : "The Palace Of Cold allows you to recruite Sylph Witches.",
-					
+
 					"name" : "Upg. Palace Of Cold",
 					"upgrades" : "dwellingLvl4",
-					"requires" : [ "mageGuild2" ]
+					"requires" : [
+						"mageGuild2"
+					]
 				},
 				"dwellingUpLvl6" : {
-					"cost" : { "crystal" : 5, "gold" : 2000, "ore" : 5, "wood" : 5 },
+					"cost" : {
+						"crystal" : 5,
+						"gold" : 2000,
+						"ore" : 5,
+						"wood" : 5
+					},
 					"description" : "The Ice Cave allow you to recruit Greater Ice Demons.",
-					
+
 					"name" : "Upg. Ice Cave",
 					"upgrades" : "dwellingLvl6"
 				},
 				"dwellingUpLvl6B" : {
-					"cost" : { "gold" : 3000, "ore" : 5, "wood" : 5 },
+					"cost" : {
+						"gold" : 3000,
+						"ore" : 5,
+						"wood" : 5
+					},
 					"description" : "The Creepy Cave allows you to recruit Cave Monsters.",
 					"id" : 56,
 					"name" : "Upg. Creepy Cave",
 					"upgrades" : "dwellingLvl6B"
 				},
 				"dwellingUpLvl7" : {
-					"cost" : { "gems" : 15, "gold" : 20000, "ore" : 5, "mercury" : 15, "wood" : 5 },
+					"cost" : {
+						"gems" : 15,
+						"gold" : 20000,
+						"ore" : 5,
+						"mercury" : 15,
+						"wood" : 5
+					},
 					"description" : "The Sacred Lair allows you to recruit Giant Flame-Bearers.",
-					
+
 					"name" : "Upg. Sacred Lair",
-					"requires" : [ "mageGuild3" ],
+					"requires" : [
+						"mageGuild3"
+					],
 					"upgrades" : "dwellingLvl7"
 				},
 				"fort" : {
-					"cost" : { "gold" : 5000, "ore" : 20, "wood" : 20 },
+					"cost" : {
+						"gold" : 5000,
+						"ore" : 20,
+						"wood" : 20
+					},
 					"description" : "The Fort provides your town with defensive walls.",
-					
+
 					"name" : "Fort"
 				},
-				"grail": {
-					"description": "The Glacier increases the weekly generation of creatures by 50% and provides your kingdom with an additional 5000 gold each day, also reduces the damage to heroes in battle by 15, gives the ability to place an army before the battle on 8 cells and allows you to use manual control of the catapult during the siege.",
-					"bonuses": [
-						{ 	"type": "GENERAL_DAMAGE_REDUCTION", 
-							"subtype": "damageTypeAll", 
-							"val": 15, 
-							"valueType": "ADDITIVE_VALUE",
-							"propagator": "PLAYER" 
+				"grail" : {
+					"description" : "The Glacier increases the weekly generation of creatures by 50% and provides your kingdom with an additional 5000 gold each day, also reduces the damage to heroes in battle by 15, gives the ability to place an army before the battle on 8 cells and allows you to use manual control of the catapult during the siege.",
+					"bonuses" : [
+						{
+							"type" : "GENERAL_DAMAGE_REDUCTION",
+							"subtype" : "damageTypeAll",
+							"val" : 15,
+							"valueType" : "ADDITIVE_VALUE",
+							"propagator" : "PLAYER"
 						},
 						{
-							"type": "BEFORE_BATTLE_REPOSITION", 
-							"val": 8, 
-							"valueType": "ADDITIVE_VALUE",
-							"propagator": "PLAYER"
+							"type" : "BEFORE_BATTLE_REPOSITION",
+							"val" : 8,
+							"valueType" : "ADDITIVE_VALUE",
+							"propagator" : "PLAYER"
 						},
 						{
-							"type": "MANUAL_CONTROL", 
-							"subtype": "catapult", 
-							"val": 100,
-							"valueType": "ADDITIVE_VALUE",
-							"propagator": "PLAYER"
+							"type" : "MANUAL_CONTROL",
+							"subtype" : "catapult",
+							"val" : 100,
+							"valueType" : "ADDITIVE_VALUE",
+							"propagator" : "PLAYER"
 						},
 						{
-							"type": "MANUAL_CONTROL", 
-							"subtype": "ballista", 
-							"val": 100,
-							"valueType": "ADDITIVE_VALUE",
-							"propagator": "PLAYER"
+							"type" : "MANUAL_CONTROL",
+							"subtype" : "ballista",
+							"val" : 100,
+							"valueType" : "ADDITIVE_VALUE",
+							"propagator" : "PLAYER"
 						},
 						{
-							"type": "MANUAL_CONTROL", 
-							"subtype": "ammoCart", 
-							"val": 100,
-							"valueType": "ADDITIVE_VALUE",
-							"propagator": "PLAYER"
+							"type" : "MANUAL_CONTROL",
+							"subtype" : "ammoCart",
+							"val" : 100,
+							"valueType" : "ADDITIVE_VALUE",
+							"propagator" : "PLAYER"
 						},
 						{
-							"type": "MANUAL_CONTROL", 
-							"subtype": "firstAidTent", 
-							"val": 100,
-							"valueType": "ADDITIVE_VALUE",
-							"propagator": "PLAYER"
+							"type" : "MANUAL_CONTROL",
+							"subtype" : "firstAidTent",
+							"val" : 100,
+							"valueType" : "ADDITIVE_VALUE",
+							"propagator" : "PLAYER"
 						}
-						   ],
-					"name": "Glacier"
+					],
+					"name" : "Glacier"
 				},
 				"horde1" : {
-					"cost" : { "gold" : 1000 },
+					"cost" : {
+						"gold" : 1000
+					},
 					"description" : "The Fishermen's Yurt increases Frostlings production by 9 per week.",
-					
+
 					"name" : "Fishermen's Yurt",
 					"upgrades" : "dwellingLvl1"
 				},
 				"horde1Upgr" : {
-					"cost" : { "gold" : 1000 },
+					"cost" : {
+						"gold" : 1000
+					},
 					"description" : "The Fishermen's Yurt increases Frostling Trackers production by 9 per week.",
-					
+
 					"mode" : "auto",
 					"name" : "Fishermen's Yurt",
-					"requires" : [ "horde1" ],
+					"requires" : [
+						"horde1"
+					],
 					"upgrades" : "dwellingUpLvl1"
 				},
 				"horde3" : {
-					"cost" : { "gold" : 3000 },
+					"cost" : {
+						"gold" : 3000
+					},
 					"description" : "The Ice-Free River increases Mountain Rams production by 4 per week.",
-					
+
 					"name" : "Ice-Free River",
 					"upgrades" : "dwellingLvl3"
 				},
 				"horde3Upgr" : {
-					"cost" : { "gold" : 3000 },
+					"cost" : {
+						"gold" : 3000
+					},
 					"description" : "The Ice-Free River increases Argali production by 4 per week.",
-					
+
 					"mode" : "auto",
 					"name" : "Ice-Free River",
-					"requires" : [ "horde3" ],
+					"requires" : [
+						"horde3"
+					],
 					"upgrades" : "dwellingUpLvl3"
 				},
 				"mageGuild1" : {
-					"cost" : { "gold" : 2000, "ore" : 5, "wood" : 5 },
+					"cost" : {
+						"gold" : 2000,
+						"ore" : 5,
+						"wood" : 5
+					},
 					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
-					
+
 					"name" : "Mage Guild Level 1"
 				},
 				"mageGuild2" : {
-					"cost" : { "crystal" : 4, "gems" : 4, "gold" : 1000, "mercury" : 4, "ore" : 5, "sulfur" : 4, "wood" : 5 },
+					"cost" : {
+						"crystal" : 4,
+						"gems" : 4,
+						"gold" : 1000,
+						"mercury" : 4,
+						"ore" : 5,
+						"sulfur" : 4,
+						"wood" : 5
+					},
 					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
-					
+
 					"name" : "Mage Guild Level 2"
 				},
 				"mageGuild3" : {
-					"cost" : { "crystal" : 6, "gems" : 6, "gold" : 1000, "mercury" : 6, "ore" : 5, "sulfur" : 6, "wood" : 5 },
+					"cost" : {
+						"crystal" : 6,
+						"gems" : 6,
+						"gold" : 1000,
+						"mercury" : 6,
+						"ore" : 5,
+						"sulfur" : 6,
+						"wood" : 5
+					},
 					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
-					
+
 					"name" : "Mage Guild Level 3"
 				},
 				"marketplace" : {
-					"cost" : { "gold" : 500, "wood" : 5 },
+					"cost" : {
+						"gold" : 500,
+						"wood" : 5
+					},
 					"description" : "With the Marketplace, you can buy and sell resources (exchange rates increase with each Marketplace you own).",
-					
+
 					"name" : "Marketplace"
 				},
 				"resourceSilo" : {
-					"cost" : { "gold" : 5000, "ore" : 5 },
+					"cost" : {
+						"gold" : 5000,
+						"ore" : 5
+					},
 					"description" : "The Resource Silo provides you with an additional +1 mercury each day.",
-					
+
 					"name" : "Resource Silo",
-					"produce": { "mercury": 1 }
+					"produce" : {
+						"mercury" : 1
+					}
 				},
 
-				"special1": {
-					"cost": {
-						"crystal": 2,
-						"gems": 2,
-						"gold": 6000,
-						"mercury": 2,
-						"ore": 5,
-						"sulfur": 2,
-						"wood": 10
+				"special1" : {
+					"cost" : {
+						"crystal" : 2,
+						"gems" : 2,
+						"gold" : 6000,
+						"mercury" : 2,
+						"ore" : 5,
+						"sulfur" : 2,
+						"wood" : 10
 					},
-					"description": "The Sanctuary increases the attack of all Arc creatures by +4.",
-					"bonuses": [
+					"description" : "The Sanctuary increases the attack of all Arc creatures by +4.",
+					"bonuses" : [
 						{
-							"type": "CREATURE_DAMAGE",
-							"subtype": "creatureDamageBoth",
+							"type" : "CREATURE_DAMAGE",
+							"subtype" : "creatureDamageBoth",
 							"val" : 4,
 							"valueType" : "PERCENT_TO_BASE",
 							"propagator" : "GLOBAL_EFFECT",
 							"limiters" : [
 								{
-								"type": "CREATURE_FACTION_LIMITER",
-								"faction" : "ark"
+									"type" : "CREATURE_FACTION_LIMITER",
+									"faction" : "ark"
 								}
-								     ]
+							]
 						}
-						  ],
-					
-					"name": "Sanctuary",
-					"requires": [
+					],
+
+					"name" : "Sanctuary",
+					"requires" : [
 						"blacksmith"
 					]
 				},
-				"special3": {
-					"cost": {
-						"gold": 7000,
-						"mercury": 10
+				"special3" : {
+					"cost" : {
+						"gold" : 7000,
+						"mercury" : 10
 					},
-					"description": "Frost Rune allows heroes to learn enemy spells that they used in battle.",
-					
+					"description" : "Frost Rune allows heroes to learn enemy spells that they used in battle.",
+
 					"configuration" : {
 						"visitMode" : "bonus",
 						"rewards" : [
 							{
 								"message" : "The sylphs guarding the sanctuary come out to meet you, in their icy hands you see a scroll containing ancient magic. The sylphs hand you this scroll as if it were a worthy hero.",
 								"movePoints" : 400,
-								"bonuses" : [ { "type" : "LEARN_BATTLE_SPELL_LEVEL_LIMIT", "val" : 3, "valueType" : "ADDITIVE_VALUE"} ]
+								"bonuses" : [
+									{
+										"type" : "LEARN_BATTLE_SPELL_LEVEL_LIMIT",
+										"val" : 3,
+										"valueType" : "ADDITIVE_VALUE"
+									}
+								]
 							}
 						]
 					},
-					"name": "Frosty Rune",
-					"requires": [
+					"name" : "Frosty Rune",
+					"requires" : [
 						"tavern"
 					]
 				},
 				"special4" : {
-					"cost" : { "gold" : 4000, "ore" : 10, "wood" : 10 },
+					"cost" : {
+						"gold" : 4000,
+						"ore" : 10,
+						"wood" : 10
+					},
 					"description" : "Dancing boulders allow you to level up your ballistics skill.",
-					
+
 					"manualHeroVisit" : true,
 					"name" : "Dancing Boulders",
-					"requires" : [ "marketplace" ],
+					"requires" : [
+						"marketplace"
+					],
 					"configuration" : {
-					"visitMode" : "hero",
-					"variables" : {
-						"secondarySkill" : {
-							"gainedSkill" : { 
-								"anyOf" : ["ballistics"]
+						"visitMode" : "hero",
+						"variables" : {
+							"secondarySkill" : {
+								"gainedSkill" : {
+									"anyOf" : [
+										"ballistics"
+									]
+								}
 							}
-						}
-					},
-					"visitLimiter" : {
-						"secondary" : {
-						"@gainedSkill" : 1
-							      }
-							 },
-						"rewards" :
-							[    
-                    							{
-							"secondary" : 		{
+						},
+						"visitLimiter" : {
+							"secondary" : {
 								"@gainedSkill" : 1
-								      		},
-								"resources" :   {
-								"gold" : -1000
-										},
-								"limiter": 
+							}
+						},
+						"rewards" : [
+							{
+								"secondary" : {
+									"@gainedSkill" : 1
+								},
+								"resources" : {
+									"gold" : -1000
+								},
+								"limiter" : {
+									"canLearnSkills" : true,
+									"noneOf" : [
 										{
-								"canLearnSkills" : true,
-								"noneOf" : [
-										{
-									"secondary" : {
-										"@gainedSkill" : 1
-										      }
+											"secondary" : {
+												"@gainedSkill" : 1
+											}
 										}
-									   ],
-								"resources" : {"gold" : 1000}
-									},
-							"message": "{Dancing Boulders}\r\n\r\nYou visit the clearing under the dancing boulders and talk to the shamans. After talking to you, one of the shamans learns that you need help. If you donate 1000 gold, he will teach you the skill."
-                    						}
-
-               						],
-				"onSelectMessage" : "{Dancing Boulders}\r\n\r\nYou visit the clearing under the dancing boulders and talk to the shamans. After talking to you, one of the shamans learns that you need help. If you donate 1000 gold, he will teach you the skill.",
-                "onVisitedMessage": "{Dancing Boulders}\r\n\r\nYou visit the clearing under the dancing boulders and talk to the shamans. After one of the shamans talks to you, he finds that you have long surpassed him in the area in which he was good. To ease his embarrassment, you decide to leave.",
-				"onEmptyMessage": "{Dancing Boulders}\r\n\r\nYou visit the clearing under the dancing boulders and talk to the shamans. They invite you to attend the next shamanic ritual, but you decline their offer.",  
-				"canRefuse": true,
-				"selectMode" : "selectPlayer"
-					},	
+									],
+									"resources" : {
+										"gold" : 1000
+									}
+								},
+								"message" : "{Dancing Boulders}\r\n\r\nYou visit the clearing under the dancing boulders and talk to the shamans. After talking to you, one of the shamans learns that you need help. If you donate 1000 gold, he will teach you the skill."
+							}
+						],
+						"onSelectMessage" : "{Dancing Boulders}\r\n\r\nYou visit the clearing under the dancing boulders and talk to the shamans. After talking to you, one of the shamans learns that you need help. If you donate 1000 gold, he will teach you the skill.",
+						"onVisitedMessage" : "{Dancing Boulders}\r\n\r\nYou visit the clearing under the dancing boulders and talk to the shamans. After one of the shamans talks to you, he finds that you have long surpassed him in the area in which he was good. To ease his embarrassment, you decide to leave.",
+						"onEmptyMessage" : "{Dancing Boulders}\r\n\r\nYou visit the clearing under the dancing boulders and talk to the shamans. They invite you to attend the next shamanic ritual, but you decline their offer.",
+						"canRefuse" : true,
+						"selectMode" : "selectPlayer"
+					}
 				},
 				"tavern" : {
-					"cost" : { "gold" : 500, "wood" : 5 },
+					"cost" : {
+						"gold" : 500,
+						"wood" : 5
+					},
 					"description" : "The Tavern increases morale for troops defending the city.",
-					
+
 					"name" : "Tavern"
 				},
 				"townHall" : {
-					"cost" : { "gold" : 2500 },
+					"cost" : {
+						"gold" : 2500
+					},
 					"description" : "The Town Hall allows you to purchase town structures and earns your kingdom 1000 gold per day.",
-					
+
 					"name" : "Town Hall"
 				},
 				"villageHall" : {
 					"description" : "The Village Hall allows you to purchase town structures and earns your kingdom 500 gold per day.",
-					
+
 					"name" : "Village Hall"
 				}
 			}

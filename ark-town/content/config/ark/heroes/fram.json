@@ -1,47 +1,47 @@
 {
-	"ark_fram": {
-		"army": [
+	"ark_fram" : {
+		"army" : [
 			{
-				"creature": "ark_frostling_lvl1",
-				"max": 25,
-				"min": 15
+				"creature" : "ark_frostling_lvl1",
+				"max" : 25,
+				"min" : 15
 			},
 			{
-				"creature": "ark_frostling_lvl1",
-				"max": 25,
-				"min": 15
+				"creature" : "ark_frostling_lvl1",
+				"max" : 25,
+				"min" : 15
 			},
 			{
-				"creature": "ark_frostling_lvl1",
+				"creature" : "ark_frostling_lvl1",
 				"max" : 25,
 				"min" : 15
 			}
 		],
-		"class": "ark_angakok",
+		"class" : "ark_angakok",
 		"female" : true,
-		"images": {
-			"large": "ark/heroes/fram/Fram-Big.bmp",
-			"small": "ark/heroes/fram/Fram-Small.bmp",
-			"specialtyLarge": "ark/heroes/fram/FramSpec.png",
-			"specialtySmall": "ark/heroes/fram/FramSpecS.png"
+		"images" : {
+			"large" : "ark/heroes/fram/Fram-Big.bmp",
+			"small" : "ark/heroes/fram/Fram-Small.bmp",
+			"specialtyLarge" : "ark/heroes/fram/FramSpec.png",
+			"specialtySmall" : "ark/heroes/fram/FramSpecS.png"
 		},
-		"skills": [
+		"skills" : [
 			{
-				"level": "basic",
-				"skill": "estates"
+				"level" : "basic",
+				"skill" : "estates"
 			},
 			{
-				"level": "basic",
-				"skill": "tactics"
+				"level" : "basic",
+				"skill" : "tactics"
 			}
 		],
 		"specialty" : {
 			"creature" : "ark_frostling_lvl1"
 		},
-		"texts": {
-			"biography": "Fram's youth had a very difficult fate: her father, the leader of the tribe, was killed before her own eyes by the Moroders who came from the Highlands, which is why she had to take the reins of government of her tribe and prevent its complete collapse. In many ways, the girl managed to rally other Frostlings around her thanks to her discovered leadership qualities as a true daughter of a leader.",
-			"name": "Fram",
-			"specialty": {
+		"texts" : {
+			"biography" : "Fram's youth had a very difficult fate: her father, the leader of the tribe, was killed before her own eyes by the Moroders who came from the Highlands, which is why she had to take the reins of government of her tribe and prevent its complete collapse. In many ways, the girl managed to rally other Frostlings around her thanks to her discovered leadership qualities as a true daughter of a leader.",
+			"name" : "Fram",
+			"specialty" : {
 				"description" : "Increases the Attack and Defense skills of any Frostlings and Frostling Trackers he commands for each level attainded after 1st level.",
 				"tooltip" : "Creature bonus: Frostlings",
 				"name" : "Frostlings"

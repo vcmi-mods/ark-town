@@ -1,50 +1,50 @@
 {
-	"ark_larann": {
-		"army": [
+	"ark_larann" : {
+		"army" : [
 			{
-				"creature": "ark_frostling_lvl1",
-				"max": 25,
-				"min": 15
+				"creature" : "ark_frostling_lvl1",
+				"max" : 25,
+				"min" : 15
 			},
 			{
-				"creature": "ark_inuk_lvl2",
-				"max": 9,
-				"min": 7
+				"creature" : "ark_inuk_lvl2",
+				"max" : 9,
+				"min" : 7
 			},
 			{
-				"creature": "ark_ram_lvl3",
+				"creature" : "ark_ram_lvl3",
 				"max" : 6,
 				"min" : 4
 			}
 		],
-		"female": true,
-		"class": "ark_oracle",
-		"spellbook": [
+		"female" : true,
+		"class" : "ark_oracle",
+		"spellbook" : [
 			"frostRing"
 		],
-		"images": {
-			"large": "ark/heroes/larann/Larann-Big.bmp",
-			"small": "ark/heroes/larann/Larann-Small.bmp",
-			"specialtyLarge": "ark/heroes/larann/LarannSpec.png",
-			"specialtySmall": "ark/heroes/larann/LarannSpecS.png"
+		"images" : {
+			"large" : "ark/heroes/larann/Larann-Big.bmp",
+			"small" : "ark/heroes/larann/Larann-Small.bmp",
+			"specialtyLarge" : "ark/heroes/larann/LarannSpec.png",
+			"specialtySmall" : "ark/heroes/larann/LarannSpecS.png"
 		},
-		"skills": [
+		"skills" : [
 			{
-				"level": "basic",
-				"skill": "wisdom"
+				"level" : "basic",
+				"skill" : "wisdom"
 			},
 			{
-				"level": "basic",
-				"skill": "airMagic"
+				"level" : "basic",
+				"skill" : "airMagic"
 			}
 		],
 		"specialty" : {
 			"creature" : "ark_sylph_lvl5"
 		},
-		"texts": {
-			"biography": "For a long time, the Sylph people have stood guard over the permafrost lands, even before these expanses were inhabited by the Frostling and Inuk tribes. Larann is devoted to her people, she is not only an unsurpassed magician, but also an excellent warrior, which allowed her to lead one of the Sylph academies and continue to fulfill her destiny in protecting the north.",
-			"name": "Larann",
-			"specialty": {
+		"texts" : {
+			"biography" : "For a long time, the Sylph people have stood guard over the permafrost lands, even before these expanses were inhabited by the Frostling and Inuk tribes. Larann is devoted to her people, she is not only an unsurpassed magician, but also an excellent warrior, which allowed her to lead one of the Sylph academies and continue to fulfill her destiny in protecting the north.",
+			"name" : "Larann",
+			"specialty" : {
 				"description" : "Increases the Attack and Defense skills of any Sylph and Sylph Witches she commands for each level attainded after 4th level.",
 				"tooltip" : "Creature bonus: Sylph",
 				"name" : "Sylph"

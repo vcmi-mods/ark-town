@@ -1,66 +1,66 @@
 {
-	"ark_rider_lvl4": {
-		"name": {
-			"singular": "Ram Rider",
-			"plural": "Ram Riders"
+	"ark_rider_lvl4" : {
+		"name" : {
+			"singular" : "Ram Rider",
+			"plural" : "Ram Riders"
 		},
-		"upgrades": [
+		"upgrades" : [
 			"ark_rider_lvl4_up"
 		],
-		"level": 4,
-		"special": false,
-		"faction": "ark",
-		"cost": {
-			"wood": 0,
-			"mercury": 0,
-			"ore": 0,
-			"sulfur": 0,
-			"crystal": 0,
-			"gems": 0,
-			"gold": 270
+		"level" : 4,
+		"special" : false,
+		"faction" : "ark",
+		"cost" : {
+			"wood" : 0,
+			"mercury" : 0,
+			"ore" : 0,
+			"sulfur" : 0,
+			"crystal" : 0,
+			"gems" : 0,
+			"gold" : 270
 		},
-		"fightValue": 411,
-		"aiValue": 522,
-		"growth": 5,
-		"attack": 11,
-		"defense": 10,
-		"hitPoints": 30,
-		"speed": 8,
-		"damage": {
-			"min": 5,
-			"max": 9
+		"fightValue" : 411,
+		"aiValue" : 522,
+		"growth" : 5,
+		"attack" : 11,
+		"defense" : 10,
+		"hitPoints" : 30,
+		"speed" : 8,
+		"damage" : {
+			"min" : 5,
+			"max" : 9
 		},
-		"spellPoints": 50,
-		"advMapAmount": {
-			"max": 16,
-			"min": 12
+		"spellPoints" : 50,
+		"advMapAmount" : {
+			"max" : 16,
+			"min" : 12
 		},
-		"doubleWide": true,
-		"abilities": {
-			"spirit": {
-				"type": "JOUSTING",
-				"val": 2	
-			          }
-			     },
-		"hasDoubleWeek": true,
-		"graphics": {
-			"animation": "ark/creatures/battle/rider.def",
-			"map": "ark/creatures/adventure/rider.def",
-			"iconSmall": "ark/creatures/icon/rider.bmp",
-			"iconLarge": "ark/creatures/portrait/rider.bmp",
-			"timeBetweenFidgets": 1.00,
-			"animationTime": {
-				"walk": 1,
-				"idle": 10.00,
-				"attack": 1
+		"doubleWide" : true,
+		"abilities" : {
+			"spirit" : {
+				"type" : "JOUSTING",
+				"val" : 2
 			}
 		},
-		"sound": {
-			"attack": "CHMPATTK.wav",
-			"defend": "ark/RAMATTK.wav",
-			"killed": "ark/RAMKILL.wav",
-			"move": "UNICMOVE.wav",
-			"wince": "ark/RAMWNCE.wav"
+		"hasDoubleWeek" : true,
+		"graphics" : {
+			"animation" : "ark/creatures/battle/rider.def",
+			"map" : "ark/creatures/adventure/rider.def",
+			"iconSmall" : "ark/creatures/icon/rider.bmp",
+			"iconLarge" : "ark/creatures/portrait/rider.bmp",
+			"timeBetweenFidgets" : 1.0,
+			"animationTime" : {
+				"walk" : 1,
+				"idle" : 10.0,
+				"attack" : 1
+			}
+		},
+		"sound" : {
+			"attack" : "CHMPATTK.wav",
+			"defend" : "ark/RAMATTK.wav",
+			"killed" : "ark/RAMKILL.wav",
+			"move" : "UNICMOVE.wav",
+			"wince" : "ark/RAMWNCE.wav"
 		}
 	}
 }

@@ -1,53 +1,53 @@
 {
-	"ark_korgyn": {
-		"army": [
+	"ark_korgyn" : {
+		"army" : [
 			{
-				"creature": "ark_frostling_lvl1",
-				"max": 25,
-				"min": 15
+				"creature" : "ark_frostling_lvl1",
+				"max" : 25,
+				"min" : 15
 			},
 			{
-				"creature": "ark_frostling_lvl1",
-				"max": 25,
-				"min": 15
+				"creature" : "ark_frostling_lvl1",
+				"max" : 25,
+				"min" : 15
 			},
 			{
-				"creature": "ark_frostling_lvl1",
-				"max": 25,
-				"min": 15
+				"creature" : "ark_frostling_lvl1",
+				"max" : 25,
+				"min" : 15
 			}
 		],
-		"class": "ark_angakok",
+		"class" : "ark_angakok",
 		"female" : false,
-		"images": {
-			"large": "ark/heroes/korgyn/Korgyn-Big",
-			"small": "ark/heroes/korgyn/Korgyn-Small.bmp",
-			"specialtyLarge": "ark/heroes/korgyn/KorgynSpec.bmp",
-			"specialtySmall": "ark/heroes/korgyn/KorgynSpecS.bmp"
+		"images" : {
+			"large" : "ark/heroes/korgyn/Korgyn-Big",
+			"small" : "ark/heroes/korgyn/Korgyn-Small.bmp",
+			"specialtyLarge" : "ark/heroes/korgyn/KorgynSpec.bmp",
+			"specialtySmall" : "ark/heroes/korgyn/KorgynSpecS.bmp"
 		},
-		"skills": [
+		"skills" : [
 			{
-				"level": "basic",
-				"skill": "pathfinding"
+				"level" : "basic",
+				"skill" : "pathfinding"
 			},
 			{
-				"level": "basic",
-				"skill": "tactics"
+				"level" : "basic",
+				"skill" : "tactics"
 			}
 		],
 		"specialty" : {
-		"bonuses" : {
-			"gold" : {
+			"bonuses" : {
+				"gold" : {
 					"subtype" : "mercury",
 					"type" : "GENERATE_RESOURCE",
 					"val" : 1
 				}
 			}
 		},
-		"texts": {
-			"biography": "Korgyn is one of the few elders of the Frostling people who managed to live to such an old age without losing all his knowledge and skills, which to this day help him not only lead his tribe, but also enter into profitable trade alliances with his neighbors.",
-			"name": "Korgyn",
-			"specialty": {
+		"texts" : {
+			"biography" : "Korgyn is one of the few elders of the Frostling people who managed to live to such an old age without losing all his knowledge and skills, which to this day help him not only lead his tribe, but also enter into profitable trade alliances with his neighbors.",
+			"name" : "Korgyn",
+			"specialty" : {
 				"description" : "Provide 1 mercury per day to your kingdom.",
 				"tooltip" : "+1 Mercury",
 				"name" : "+1 Mercury"

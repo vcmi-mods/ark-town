@@ -1,48 +1,47 @@
 {
-	"ark_giant_lvl7": {
-		"name": {
-			"singular": "Ice Giant",
-			"plural": "Ice Giants"
+	"ark_giant_lvl7" : {
+		"name" : {
+			"singular" : "Ice Giant",
+			"plural" : "Ice Giants"
 		},
-		"upgrades": [
+		"upgrades" : [
 			"ark_giant_lvl7_up"
 		],
-		"level": 7,
-		"special": false,
-		"faction": "ark",
-		"cost": {
-			"wood": 0,
-			"mercury": 1,
-			"ore": 0,
-			"sulfur": 0,
-			"crystal": 0,
-			"gems": 0,
-			"gold": 2500
+		"level" : 7,
+		"special" : false,
+		"faction" : "ark",
+		"cost" : {
+			"wood" : 0,
+			"mercury" : 1,
+			"ore" : 0,
+			"sulfur" : 0,
+			"crystal" : 0,
+			"gems" : 0,
+			"gold" : 2500
 		},
-		"fightValue": 3290,
-		"aiValue": 3850,
-		"growth": 1,
-		"attack": 19,
-		"defense": 20,
-		"hitPoints": 170,
-		"speed": 7,
-		"damage": {
-			"min": 40,
-			"max": 60
+		"fightValue" : 3290,
+		"aiValue" : 3850,
+		"growth" : 1,
+		"attack" : 19,
+		"defense" : 20,
+		"hitPoints" : 170,
+		"speed" : 7,
+		"damage" : {
+			"min" : 40,
+			"max" : 60
 		},
-		"spellPoints": 0,
-		"advMapAmount": {
-			"max": 11,
-			"min": 4
+		"spellPoints" : 0,
+		"advMapAmount" : {
+			"max" : 11,
+			"min" : 4
 		},
-		"doubleWide": false,
-		"abilities": {
-			"enemy_defence": {
+		"doubleWide" : false,
+		"abilities" : {
+			"enemy_defence" : {
 				"type" : "ENEMY_DEFENCE_REDUCTION",
 				"val" : 10
-				    },
-			"noRetalitation" : 
-			{
+			},
+			"noRetalitation" : {
 				"type" : "BLOCKS_RETALIATION"
 			},
 			"fearless" : {
@@ -52,38 +51,36 @@
 				"description" : "{Fearless}\nImmune to Fear ability",
 				"icon" : "ark/icons/bonuses/e_fearl.png"
 			},
-			"castsInferno" :
-			{
+			"castsInferno" : {
 				"type" : "SPELLCASTER",
 				"subtype" : "inferno",
 				"val" : 2
 			},
-			"castsCount" :
-			{
+			"castsCount" : {
 				"type" : "CASTS",
 				"val" : 3
 			}
-			     },
-		"hasDoubleWeek": false,
-		"graphics": {
-			"animation": "ark/creatures/battle/giant.def",
-			"map": "ark/creatures/adventure/giant.def",
-			"iconSmall": "ark/creatures/icon/giant.bmp",
-			"iconLarge": "ark/creatures/portrait/giant.bmp",
-			"timeBetweenFidgets": 1.00,
-			"animationTime": {
-				"walk": 1,
-				"idle": 10.00,
-				"attack": 1
+		},
+		"hasDoubleWeek" : false,
+		"graphics" : {
+			"animation" : "ark/creatures/battle/giant.def",
+			"map" : "ark/creatures/adventure/giant.def",
+			"iconSmall" : "ark/creatures/icon/giant.bmp",
+			"iconLarge" : "ark/creatures/portrait/giant.bmp",
+			"timeBetweenFidgets" : 1.0,
+			"animationTime" : {
+				"walk" : 1,
+				"idle" : 10.0,
+				"attack" : 1
 			}
 		},
-		"sound": {
-			"attack": "ark/GIANTATTK.wav",
-			"defend": "ark/GIANTDFND.wav",
-			"killed": "DEVLKILL.wav",
-			"move": "OGREMOVE.wav",
-			"wince": "OGREWNCE.wav",
-			"shoot": "ark/GIANTATTK.wav",
+		"sound" : {
+			"attack" : "ark/GIANTATTK.wav",
+			"defend" : "ark/GIANTDFND.wav",
+			"killed" : "DEVLKILL.wav",
+			"move" : "OGREMOVE.wav",
+			"wince" : "OGREWNCE.wav",
+			"shoot" : "ark/GIANTATTK.wav"
 		}
 	}
 }

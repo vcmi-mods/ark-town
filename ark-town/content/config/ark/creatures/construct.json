@@ -1,34 +1,32 @@
 {
-	"ark_construct":
-	{
-		"name" :
-		{
+	"ark_construct" : {
+		"name" : {
 			"plural" : "Ice constructs",
 			"singular" : "Ice construct"
 		},
-		"advMapAmount" :
-		{
+		"advMapAmount" : {
 			"max" : 8,
 			"min" : 3
 		},
 		"faction" : "neutral",
 		"aiValue" : 880,
 		"attack" : 11,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 600
 		},
-		"damage" :
-		{
+		"damage" : {
 			"max" : 17,
 			"min" : 14
 		},
 		"defense" : 15,
 		"fightValue" : 679,
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "ark/creatures/battle/construct.def",
-			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1
+			},
 			"map" : "ark/creatures/adventure/construct.def",
 			"iconSmall" : "ark/creatures/icon/construct.bmp",
 			"iconLarge" : "ark/creatures/portrait/construct.bmp",
@@ -37,9 +35,8 @@
 		"growth" : 3,
 		"hitPoints" : 45,
 		"level" : 5,
-	    "doubleWide" : true,		
-		"sound" :
-		{
+		"doubleWide" : true,
+		"sound" : {
 			"attack" : "ark/constructatk.wav",
 			"defend" : "ark/constructhit.wav",
 			"killed" : "ark/constructdie.wav",
@@ -47,15 +44,14 @@
 			"wince" : "ark/constructhit.wav"
 		},
 		"speed" : 6,
-		"abilities" :
-		{
+		"abilities" : {
 			"fearless" : {
 				"type" : "FEARFUL",
 				"valueType" : "INDEPENDENT_MIN",
 				"val" : 0,
 				"description" : "{Fearless}\nImmune to Fear ability",
 				"icon" : "ark/icons/bonuses/e_fearl.png"
-			}	
+			}
 		}
 	}
 }

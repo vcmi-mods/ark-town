@@ -1,18 +1,16 @@
 {
-	"ark_monster_lvl6alt": {
-		"name" :
-		{
+	"ark_monster_lvl6alt" : {
+		"name" : {
 			"singular" : "Snow Monster",
 			"plural" : "Snow Monsters"
 		},
-		"upgrades": [
+		"upgrades" : [
 			"ark_monster_lvl6alt_up"
 		],
-		"level": 6,
-		"special": false,
-		"faction": "ark",
-		"cost" : 
-		{
+		"level" : 6,
+		"special" : false,
+		"faction" : "ark",
+		"cost" : {
 			"wood" : 0,
 			"mercury" : 0,
 			"ore" : 0,
@@ -28,20 +26,18 @@
 		"defense" : 13,
 		"hitPoints" : 85,
 		"speed" : 7,
-		"damage" :
-		{
+		"damage" : {
 			"min" : 20,
 			"max" : 28
 		},
-		"advMapAmount" :
-		{
+		"advMapAmount" : {
 			"min" : 5,
 			"max" : 12
 		},
-		"doubleWide": false,
+		"doubleWide" : false,
 		"abilities" : {
-			"Block": {
-				"type": "BLOCKS_RETALIATION"
+			"Block" : {
+				"type" : "BLOCKS_RETALIATION"
 			},
 			"fearful" : {
 				"type" : "FEARFUL",
@@ -60,32 +56,31 @@
 				"description" : "{Fearsome}\nEnemy units have a 10% chance of freezing in fear",
 				"icon" : "ark/icons/bonuses/e_fear.png"
 			},
-			"Fero": {
-				"type": "FEROCITY",
-				"val": 2,
-				"addInfo": 3
+			"Fero" : {
+				"type" : "FEROCITY",
+				"val" : 2,
+				"addInfo" : 3
 			}
 		},
-		"hasDoubleWeek": true,
-		"graphics": {
-			"animation": "ark/creatures/battle/monster.def",
-			"map": "ark/creatures/adventure/monster.def",
-			"iconSmall": "ark/creatures/icon/monster.bmp",
-			"iconLarge": "ark/creatures/portrait/monster.bmp",
-			"timeBetweenFidgets": 1.00,
-			"animationTime": {
-				"walk": 1,
-				"idle": 10.00,
-				"attack": 1
+		"hasDoubleWeek" : true,
+		"graphics" : {
+			"animation" : "ark/creatures/battle/monster.def",
+			"map" : "ark/creatures/adventure/monster.def",
+			"iconSmall" : "ark/creatures/icon/monster.bmp",
+			"iconLarge" : "ark/creatures/portrait/monster.bmp",
+			"timeBetweenFidgets" : 1.0,
+			"animationTime" : {
+				"walk" : 1,
+				"idle" : 10.0,
+				"attack" : 1
 			}
 		},
-		"sound" :
-		{
-			"attack": "YBMHATTK.wav",
-			"defend": "ark/MONSTDFND.wav",
-			"killed": "ark/MONSTKILL.wav",
-			"move": "YBMHMOVE.wav",
-			"wince": "ark/MONSTWINCE.wav"
+		"sound" : {
+			"attack" : "YBMHATTK.wav",
+			"defend" : "ark/MONSTDFND.wav",
+			"killed" : "ark/MONSTKILL.wav",
+			"move" : "YBMHMOVE.wav",
+			"wince" : "ark/MONSTWINCE.wav"
 		}
 	}
 }

@@ -1,65 +1,65 @@
-	{
-		"ark_ram_lvl3": {
-			"name": {
-				"singular": "Mountain Ram",
-				"plural": "Mountain Rams"
-			},
-			"upgrades": [
-				"ark_ram_lvl3_up"
-			],
-			"level": 3,
-			"special": false,
-			"faction": "ark",
-			"cost": {
-				"wood": 0,
-				"mercury": 0,
-				"ore": 0,
-				"sulfur": 0,
-				"crystal": 0,
-				"gems": 0,
-				"gold": 200
-			},
-			"fightValue": 277,
-			"aiValue": 359,
-			"growth": 5,
-			"attack": 10,
-			"defense": 7,
-			"hitPoints": 26,
-			"speed": 7,
-			"damage": {
-				"min": 3,
-				"max": 7
-			},
-			"spellPoints": 0,
-			"advMapAmount": {
-				"max": 18,
-				"min": 12
-			},
-			"doubleWide": true,
-			"abilities": {
-			"Counterattack": {
-				"type": "UNLIMITED_RETALIATIONS"
+{
+	"ark_ram_lvl3" : {
+		"name" : {
+			"singular" : "Mountain Ram",
+			"plural" : "Mountain Rams"
+		},
+		"upgrades" : [
+			"ark_ram_lvl3_up"
+		],
+		"level" : 3,
+		"special" : false,
+		"faction" : "ark",
+		"cost" : {
+			"wood" : 0,
+			"mercury" : 0,
+			"ore" : 0,
+			"sulfur" : 0,
+			"crystal" : 0,
+			"gems" : 0,
+			"gold" : 200
+		},
+		"fightValue" : 277,
+		"aiValue" : 359,
+		"growth" : 5,
+		"attack" : 10,
+		"defense" : 7,
+		"hitPoints" : 26,
+		"speed" : 7,
+		"damage" : {
+			"min" : 3,
+			"max" : 7
+		},
+		"spellPoints" : 0,
+		"advMapAmount" : {
+			"max" : 18,
+			"min" : 12
+		},
+		"doubleWide" : true,
+		"abilities" : {
+			"Counterattack" : {
+				"type" : "UNLIMITED_RETALIATIONS"
 			}
-		},	
-			"hasDoubleWeek": true,
-			"graphics": {
-				"animation": "ark/creatures/battle/ram.def",
-				"map": "ark/creatures/adventure/ram.def",
-				"iconSmall": "ark/creatures/icon/ram.bmp",
-				"iconLarge": "ark/creatures/portrait/ram.bmp",
-				"timeBetweenFidgets": 1.00,
-				"animationTime": {
-					"walk": 1,
-					"idle": 10.00,
-					"attack": 1
-				}
-			},
-			"sound": {
-				"attack": "ark/RAMATTK.wav",
-				"defend": "ark/RAMATTK.wav",
-				"killed": "ark/RAMKILL.wav",
-				"move": "UNICMOVE.wav",
-				"wince": "ark/RAMWNCE.wav"
+		},
+		"hasDoubleWeek" : true,
+		"graphics" : {
+			"animation" : "ark/creatures/battle/ram.def",
+			"map" : "ark/creatures/adventure/ram.def",
+			"iconSmall" : "ark/creatures/icon/ram.bmp",
+			"iconLarge" : "ark/creatures/portrait/ram.bmp",
+			"timeBetweenFidgets" : 1.0,
+			"animationTime" : {
+				"walk" : 1,
+				"idle" : 10.0,
+				"attack" : 1
 			}
+		},
+		"sound" : {
+			"attack" : "ark/RAMATTK.wav",
+			"defend" : "ark/RAMATTK.wav",
+			"killed" : "ark/RAMKILL.wav",
+			"move" : "UNICMOVE.wav",
+			"wince" : "ark/RAMWNCE.wav"
 		}
 	}
+}

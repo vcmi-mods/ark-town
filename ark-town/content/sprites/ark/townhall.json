@@ -1,9 +1,17 @@
 {
-    "basepath" : "ark/frames/",
-	"images" :
-	[
-	    { "frame" : 17, "file" : "SNCTR"},
-		{ "frame" : 49, "file" : "CM"},
-		{ "frame" : 56, "file" : "CMUP"}
+	"basepath" : "ark/frames/",
+	"images" : [
+		{
+			"frame" : 17,
+			"file" : "SNCTR"
+		},
+		{
+			"frame" : 49,
+			"file" : "CM"
+		},
+		{
+			"frame" : 56,
+			"file" : "CMUP"
+		}
 	]
 }

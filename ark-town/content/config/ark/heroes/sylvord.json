@@ -1,47 +1,47 @@
 {
-	"ark_sylvord": {
-		"army": [
+	"ark_sylvord" : {
+		"army" : [
 			{
-				"creature": "ark_frostling_lvl1",
-				"max": 25,
-				"min": 15
+				"creature" : "ark_frostling_lvl1",
+				"max" : 25,
+				"min" : 15
 			},
 			{
-				"creature": "ark_inuk_lvl2",
-				"max": 9,
-				"min": 7
+				"creature" : "ark_inuk_lvl2",
+				"max" : 9,
+				"min" : 7
 			},
 			{
-				"creature": "ark_ram_lvl3",
+				"creature" : "ark_ram_lvl3",
 				"max" : 6,
 				"min" : 4
 			}
 		],
-		"class": "ark_angakok",
+		"class" : "ark_angakok",
 		"female" : false,
-		"images": {
-			"large": "ark/heroes/Sylvord/Sylvord-Big.bmp",
-			"small": "ark/heroes/Sylvord/Sylvord-Small.bmp",
-			"specialtyLarge": "ark/heroes/Sylvord/SylvordSpec.bmp",
-			"specialtySmall": "ark/heroes/Sylvord/SylvordSpecS.bmp"
+		"images" : {
+			"large" : "ark/heroes/Sylvord/Sylvord-Big.bmp",
+			"small" : "ark/heroes/Sylvord/Sylvord-Small.bmp",
+			"specialtyLarge" : "ark/heroes/Sylvord/SylvordSpec.bmp",
+			"specialtySmall" : "ark/heroes/Sylvord/SylvordSpecS.bmp"
 		},
-		"skills": [
+		"skills" : [
 			{
-				"level": "basic",
-				"skill": "leadership"
+				"level" : "basic",
+				"skill" : "leadership"
 			},
 			{
-				"level": "basic",
-				"skill": "logistics"
+				"level" : "basic",
+				"skill" : "logistics"
 			}
 		],
 		"specialty" : {
 			"secondary" : "logistics"
 		},
-		"texts": {
-			"biography": "In fact, Sylvord is a stranger among the inhabitants of the far north of the continent, this representative of the human race arrived in these lands about ten years ago, hiding from the justice of the kingdom, but by no means turned into an outcast, but, on the contrary, found a new craft, being an excellent guide, even among huge snowdrifts and frozen rocks.",
-			"name": "Sylvord",
-			"specialty": {
+		"texts" : {
+			"biography" : "In fact, Sylvord is a stranger among the inhabitants of the far north of the continent, this representative of the human race arrived in these lands about ten years ago, hiding from the justice of the kingdom, but by no means turned into an outcast, but, on the contrary, found a new craft, being an excellent guide, even among huge snowdrifts and frozen rocks.",
+			"name" : "Sylvord",
+			"specialty" : {
 				"description" : "Give 5% extra bonus per level to Logistics skill.",
 				"tooltip" : "Skill bonus: Logistics",
 				"name" : "Logistics"

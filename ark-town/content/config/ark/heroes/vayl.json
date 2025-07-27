@@ -1,50 +1,50 @@
 {
-	"ark_vayl": {
-		"army": [
+	"ark_vayl" : {
+		"army" : [
 			{
-				"creature": "ark_frostling_lvl1",
-				"max": 25,
-				"min": 15
+				"creature" : "ark_frostling_lvl1",
+				"max" : 25,
+				"min" : 15
 			},
 			{
-				"creature": "ark_inuk_lvl2",
-				"max": 9,
-				"min": 7
+				"creature" : "ark_inuk_lvl2",
+				"max" : 9,
+				"min" : 7
 			},
 			{
-				"creature": "ark_ram_lvl3",
+				"creature" : "ark_ram_lvl3",
 				"max" : 6,
 				"min" : 4
 			}
 		],
-		"class": "ark_oracle",
-		"spellbook": [],
-		"images": {
-			"large": "ark/heroes/vayl/Vayl-Big.bmp",
-			"small": "ark/heroes/vayl/Vayl-Small.bmp",
-			"specialtyLarge": "ark/heroes/vayl/VaylSpec.png",
-			"specialtySmall": "ark/heroes/vayl/VaylSpecS.png"
+		"class" : "ark_oracle",
+		"spellbook" : [],
+		"images" : {
+			"large" : "ark/heroes/vayl/Vayl-Big.bmp",
+			"small" : "ark/heroes/vayl/Vayl-Small.bmp",
+			"specialtyLarge" : "ark/heroes/vayl/VaylSpec.png",
+			"specialtySmall" : "ark/heroes/vayl/VaylSpecS.png"
 		},
-		"skills": [
+		"skills" : [
 			{
-				"level": "basic",
-				"skill": "archery"
+				"level" : "basic",
+				"skill" : "archery"
 			},
 			{
-				"level": "basic",
-				"skill": "tactics"
+				"level" : "basic",
+				"skill" : "tactics"
 			}
 		],
 		"specialty" : {
 			"secondary" : "archery"
 		},
-		"texts": {
-			"biography": "Vayl is half demon and half Inuk, but the mystery of his origin is shrouded in mystery, which he keeps in strict confidence. Perhaps he was created by some powerful sorcerer or was born from the heart of the icy mountains, no one knows. He came to the Inca tribe many years ago and was able to easily integrate into their daily life. His passion immediately became archery and hunting, in which he succeeded very well.",
-			"name": "Vayl",
-			"specialty": {
-				"tooltip": "Secondary Skill Bonus: Archery",
-				"name": "Archery",
-				"description": "Receives a 5% per level bonus to Archery skill percentage."
+		"texts" : {
+			"biography" : "Vayl is half demon and half Inuk, but the mystery of his origin is shrouded in mystery, which he keeps in strict confidence. Perhaps he was created by some powerful sorcerer or was born from the heart of the icy mountains, no one knows. He came to the Inca tribe many years ago and was able to easily integrate into their daily life. His passion immediately became archery and hunting, in which he succeeded very well.",
+			"name" : "Vayl",
+			"specialty" : {
+				"tooltip" : "Secondary Skill Bonus: Archery",
+				"name" : "Archery",
+				"description" : "Receives a 5% per level bonus to Archery skill percentage."
 			}
 		}
 	}

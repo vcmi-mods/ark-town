@@ -1,42 +1,42 @@
 {
-	"ark_ayotar": {
-		"army": [
+	"ark_ayotar" : {
+		"army" : [
 			{
-				"creature": "ark_inuk_lvl2",
-				"max": 12,
-				"min": 7
+				"creature" : "ark_inuk_lvl2",
+				"max" : 12,
+				"min" : 7
 			},
 			{
-				"creature": "ark_ram_lvl3",
-				"max": 7,
-				"min": 4
-			},
-		],
-		"class": "ark_angakok",
-		"female" : false,
-		"images": {
-			"large": "ark/heroes/Ayotar/Ayotar-Big.bmp",
-			"small": "ark/heroes/Ayotar/Ayotar-Small.bmp",
-			"specialtyLarge": "ark/heroes/Ayotar/AyotarSpec.png",
-			"specialtySmall": "ark/heroes/Ayotar/AyotarSpecS.png"
-		},
-		"skills": [
-			{
-				"level": "basic",
-				"skill": "pathfinding"
-			},
-			{
-				"level": "basic",
-				"skill": "armorer"
+				"creature" : "ark_ram_lvl3",
+				"max" : 7,
+				"min" : 4
 			}
 		],
-		"specialty": {
-			"creature": "ark_monster_lvl6alt"
+		"class" : "ark_angakok",
+		"female" : false,
+		"images" : {
+			"large" : "ark/heroes/Ayotar/Ayotar-Big.bmp",
+			"small" : "ark/heroes/Ayotar/Ayotar-Small.bmp",
+			"specialtyLarge" : "ark/heroes/Ayotar/AyotarSpec.png",
+			"specialtySmall" : "ark/heroes/Ayotar/AyotarSpecS.png"
 		},
-		"texts": {
-			"biography": "Few people have been able to establish strong connections with the monsters that live in the snowy mountains they come to the aid of local tribes of their own free will when their native spaces are in danger. But if we talk about Ayotar, here we will have to deal with the most intelligent representative of these creatures. It is his northern tribes who call for help when the situation requires it.",
-			"name": "Ayotar",
-			"specialty": {
+		"skills" : [
+			{
+				"level" : "basic",
+				"skill" : "pathfinding"
+			},
+			{
+				"level" : "basic",
+				"skill" : "armorer"
+			}
+		],
+		"specialty" : {
+			"creature" : "ark_monster_lvl6alt"
+		},
+		"texts" : {
+			"biography" : "Few people have been able to establish strong connections with the monsters that live in the snowy mountains they come to the aid of local tribes of their own free will when their native spaces are in danger. But if we talk about Ayotar, here we will have to deal with the most intelligent representative of these creatures. It is his northern tribes who call for help when the situation requires it.",
+			"name" : "Ayotar",
+			"specialty" : {
 				"description" : "Increases Speed of any Snow Monsters and Cave Monsters by 1 and their Attack and Defense skills by 5% for every 5 levels (rounded up).",
 				"tooltip" : "Creature bonus: Snow Monsters",
 				"name" : "Snow Monsters"

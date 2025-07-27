@@ -1,82 +1,67 @@
 {
-	"ark_mamonth":
-	{
-		"name" :
-		{
+	"ark_mamonth" : {
+		"name" : {
 			"plural" : "Mammoths",
 			"singular" : "Mammoth"
 		},
-		"advMapAmount" :
-		{
-			 "max" : 10,
-			 "min" : 5
+		"advMapAmount" : {
+			"max" : 10,
+			"min" : 5
 		},
 		"faction" : "neutral",
 		"aiValue" : 30000,
 		"attack" : 30,
 		"doubleWide" : true,
-               "cost" :
-		{
+		"cost" : {
 			"gold" : 10000,
 			"sulfur" : 8
 		},
-		"damage" :
-		{
-			 "max" : 40,
-			 "min" : 35
+		"damage" : {
+			"max" : 40,
+			"min" : 35
 		},
 		"defense" : 26,
 		"fightValue" : 16000,
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "ark/creatures/battle/mamonth.def",
 			"map" : "ark/creatures/adventure/mamonth.def",
-            "animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1
+			},
 			"iconSmall" : "ark/creatures/icon/mamonth.bmp",
 			"iconLarge" : "ark/creatures/portrait/mamonth.bmp",
 			"timeBetweenFidgets" : 1
-               },
+		},
 		"growth" : 1,
 		"hitPoints" : 500,
 		"level" : 8,
-		"sound" :
-		{
+		"sound" : {
 			"attack" : "ark/mmatk.wav",
 			"defend" : "ark/mmblock.wav",
 			"killed" : "ark/mmdie.wav",
 			"move" : "ark/mmwalk.wav",
-			"wince" :  "ark/mmhurt.wav"
+			"wince" : "ark/mmhurt.wav"
 		},
 		"speed" : 9,
-		"abilities" :
-		{
-			"JOUSTING":
-			{
-				"type" : "JOUSTING",
-				
+		"abilities" : {
+			"JOUSTING" : {
+				"type" : "JOUSTING"
 			},
-			 "immuneToWater" :
-			{
+			"immuneToWater" : {
 				"type" : "SPELL_DAMAGE_REDUCTION",
 				"val" : 100,
 				"subtype" : "water"
 			},
-			"advSlayer" :
-			{
+			"advSlayer" : {
 				"type" : "KING",
-                "val" : 2,
-                "valueType" : "ADDITIVE_VALUE"				
+				"val" : 2,
+				"valueType" : "ADDITIVE_VALUE"
 			},
-		"fireBreath" :
-			{
+			"fireBreath" : {
 				"type" : "TWO_HEX_ATTACK_BREATH"
 			}
-
 		}
 	}
 }
-
-
-
-
-

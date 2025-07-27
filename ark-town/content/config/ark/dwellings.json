@@ -1,129 +1,129 @@
 {
-	"core:creatureGeneratorCommon": {
-		"base": {
-			"base": {
-				"mask": [
+	"core:creatureGeneratorCommon" : {
+		"base" : {
+			"base" : {
+				"mask" : [
 					"VVV",
 					"VBB",
 					"VAB"
 				]
 			}
 		},
-		"types": {
-			"ark_creature_lvl1_dwelling": {
-				"name": "Igloo",
-				"creatures": [
+		"types" : {
+			"ark_creature_lvl1_dwelling" : {
+				"name" : "Igloo",
+				"creatures" : [
 					[
 						"ark_frostling_lvl1"
 					]
 				],
-				"templates": {
-					"default": {
-						"animation": "ark/map/lvl1"
+				"templates" : {
+					"default" : {
+						"animation" : "ark/map/lvl1"
 					}
 				}
 			},
-			"ark_creature_lvl2_dwelling": {
-				"name": "Frozen Village",
-				"creatures": [
+			"ark_creature_lvl2_dwelling" : {
+				"name" : "Frozen Village",
+				"creatures" : [
 					[
 						"ark_inuk_lvl2"
 					]
 				],
-				"templates": {
-					"default": {
-						"animation": "ark/map/lvl2"
+				"templates" : {
+					"default" : {
+						"animation" : "ark/map/lvl2"
 					}
 				}
 			},
-			"ark_creature_lvl3_dwelling": {
-				"name": "Ram Rocks",
-				"creatures": [
+			"ark_creature_lvl3_dwelling" : {
+				"name" : "Ram Rocks",
+				"creatures" : [
 					[
 						"ark_ram_lvl3"
 					]
 				],
-				"templates": {
-					"default": {
-						"animation": "ark/map/lvl3"
+				"templates" : {
+					"default" : {
+						"animation" : "ark/map/lvl3"
 					}
 				}
 			},
-			"ark_creature_lvl4_dwelling": {
-				"name": "Animal Lair",
-				"creatures": [
+			"ark_creature_lvl4_dwelling" : {
+				"name" : "Animal Lair",
+				"creatures" : [
 					[
 						"ark_rider_lvl4"
 					]
 				],
-				"templates": {
-					"default": {
-						"animation": "ark/map/lvl4"
+				"templates" : {
+					"default" : {
+						"animation" : "ark/map/lvl4"
 					}
 				}
 			},
-			"ark_creature_lvl5_dwelling": {
-				"name": "Palace Of Cold",
-				"creatures": [
+			"ark_creature_lvl5_dwelling" : {
+				"name" : "Palace Of Cold",
+				"creatures" : [
 					[
 						"ark_sylph_lvl5"
 					]
 				],
-				"templates": {
-					"default": {
-						"animation": "ark/map/lvl5"
+				"templates" : {
+					"default" : {
+						"animation" : "ark/map/lvl5"
 					}
 				}
 			},
-			"ark_creature_lvl6_dwelling": {
-				"name": "Ice Cave",
-				"creatures": [
+			"ark_creature_lvl6_dwelling" : {
+				"name" : "Ice Cave",
+				"creatures" : [
 					[
 						"ark_demon_lvl6"
 					]
 				],
-				"templates": {
-					"default": {
-						"animation": "ark/map/lvl6"
+				"templates" : {
+					"default" : {
+						"animation" : "ark/map/lvl6"
 					}
 				}
 			},
-			"ark_creature_lvl6Alt_dwelling": {
-				"name": "Creepy Cave",
-				"creatures": [
+			"ark_creature_lvl6Alt_dwelling" : {
+				"name" : "Creepy Cave",
+				"creatures" : [
 					[
 						"ark_monster_lvl6alt"
 					]
 				],
-				"templates": {
-					"default": {
-						"animation": "ark/map/lvl6alt"
+				"templates" : {
+					"default" : {
+						"animation" : "ark/map/lvl6alt"
 					}
 				}
 			},
-			"ark_creature_lvl7_dwelling": {
-				"name": "Sacred Lair",
-				"creatures": [
+			"ark_creature_lvl7_dwelling" : {
+				"name" : "Sacred Lair",
+				"creatures" : [
 					[
 						"ark_giant_lvl7"
 					]
 				],
-				"templates": {
-					"default": {
-						"animation": "ark/map/lvl7"
+				"templates" : {
+					"default" : {
+						"animation" : "ark/map/lvl7"
 					}
 				}
 			},
-			"ark_creature_mamonth_dwelling": {
-				"name": "Mammoth gorge",
-				"creatures": [
+			"ark_creature_mamonth_dwelling" : {
+				"name" : "Mammoth gorge",
+				"creatures" : [
 					[
 						"ark_mamonth"
 					]
 				],
-				"templates": {
-					"default": {
-						"animation": "ark/map/dvlmamonth"
+				"templates" : {
+					"default" : {
+						"animation" : "ark/map/dvlmamonth"
 					}
 				}
 			}

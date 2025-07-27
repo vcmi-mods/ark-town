@@ -1,18 +1,18 @@
 {
-	"ark": {
-		"name": "Ark",
-		"alignment": "neutral",
+	"ark" : {
+		"name" : "Ark",
+		"alignment" : "neutral",
 		"boat" : "boatFortress",
-		"nativeTerrain": "snow",
-		"creatureBackground": {
-			"120px": "ark/creaturebg120px",
-			"130px": "ark/creaturebg130px"
+		"nativeTerrain" : "snow",
+		"creatureBackground" : {
+			"120px" : "ark/creaturebg120px",
+			"130px" : "ark/creaturebg130px"
 		},
-		"town": {
-			"primaryResource": "mercury",
-			"mapObject": {
-				"filters": {
-					"castle": [
+		"town" : {
+			"primaryResource" : "mercury",
+			"mapObject" : {
+				"filters" : {
+					"castle" : [
 						"allOf",
 						[
 							"castle"
@@ -24,7 +24,7 @@
 							]
 						]
 					],
-					"citadel": [
+					"citadel" : [
 						"allOf",
 						[
 							"citadel"
@@ -36,7 +36,7 @@
 							]
 						]
 					],
-					"fort": [
+					"fort" : [
 						"allOf",
 						[
 							"fort"
@@ -49,26 +49,28 @@
 						]
 					]
 				},
-				"templates": {
-					"capitol": {
-						"animation": "ark/map/capitol.def"
+				"templates" : {
+					"capitol" : {
+						"animation" : "ark/map/capitol.def"
 					},
-					"castle": {
-						"animation": "ark/map/castle.def"
+					"castle" : {
+						"animation" : "ark/map/castle.def"
 					},
-					"citadel": {
-						"animation": "ark/map/citadel.def"
+					"citadel" : {
+						"animation" : "ark/map/citadel.def"
 					},
-					"fort": {
-						"animation": "ark/map/fort.def"
+					"fort" : {
+						"animation" : "ark/map/fort.def"
 					},
-					"village": {
-						"animation": "ark/map/village.def"
+					"village" : {
+						"animation" : "ark/map/village.def"
 					}
 				}
 			},
-			"musicTheme": [ "music/factions/ark/ArkTown" ],
-			"creatures": [
+			"musicTheme" : [
+				"music/factions/ark/ArkTown"
+			],
+			"creatures" : [
 				[
 					"ark_frostling_lvl1",
 					"ark_frostling_lvl1_up"
@@ -100,8 +102,8 @@
 					"ark_giant_lvl7_up"
 				]
 			],
-			"guildWindow": "ark/town/mageguild",
-			"names": [
+			"guildWindow" : "ark/town/mageguild",
+			"names" : [
 				"Angikuni ",
 				"Inut",
 				"Equen",
@@ -114,8 +116,8 @@
 				"Tapasska",
 				"Chuchuka"
 			],
-			"hallBackground": "ark/town/hall",
-			"hallSlots": [
+			"hallBackground" : "ark/town/hall",
+			"hallSlots" : [
 				[
 					[
 						"villageHall",
@@ -203,56 +205,56 @@
 				]
 			],
 			"moatAbility" : "castleMoat",
-			"horde": [
+			"horde" : [
 				0,
 				5
 			],
-			"icons": {
-				"fort": {
-					"built": {
-						"large": "ark/icons/fortbuildedlarge.bmp",
-						"small": "ark/icons/fortbuildedsmall.bmp"
+			"icons" : {
+				"fort" : {
+					"built" : {
+						"large" : "ark/icons/fortbuildedlarge.bmp",
+						"small" : "ark/icons/fortbuildedsmall.bmp"
 					},
-					"normal": {
-						"large": "ark/icons/fortlarge.bmp",
-						"small": "ark/icons/fortsmall.bmp"
+					"normal" : {
+						"large" : "ark/icons/fortlarge.bmp",
+						"small" : "ark/icons/fortsmall.bmp"
 					}
 				},
-				"village": {
-					"built": {
-						"large": "ark/icons/hallbuildedlarge.bmp",
-						"small": "ark/icons/hallbuildedsmall.bmp"
+				"village" : {
+					"built" : {
+						"large" : "ark/icons/hallbuildedlarge.bmp",
+						"small" : "ark/icons/hallbuildedsmall.bmp"
 					},
-					"normal": {
-						"large": "ark/icons/halllarge.bmp",
-						"small": "ark/icons/hallsmall.bmp"
+					"normal" : {
+						"large" : "ark/icons/halllarge.bmp",
+						"small" : "ark/icons/hallsmall.bmp"
 					}
 				}
 			},
-			"mageGuild": 3,
-			"defaultTavern": 5,
-			"tavern": {
-				"knight": 6,
-				"cleric": 3,
-				"ranger": 9,
-				"druid": 9,
-				"alchemist": 5,
-				"wizard": 5,
-				"demoniac": 1,
-				"heretic": 0,
-				"deathknight": 2,
-				"necromancer": 3,
-				"overlord": 3,
-				"warlock": 4,
-				"barbarian": 8,
-				"battlemage": 6,
-				"beastmaster": 8,
-				"witch": 4,
-				"planeswalker": 3,
-				"elementalist": 4
+			"mageGuild" : 3,
+			"defaultTavern" : 5,
+			"tavern" : {
+				"knight" : 6,
+				"cleric" : 3,
+				"ranger" : 9,
+				"druid" : 9,
+				"alchemist" : 5,
+				"wizard" : 5,
+				"demoniac" : 1,
+				"heretic" : 0,
+				"deathknight" : 2,
+				"necromancer" : 3,
+				"overlord" : 3,
+				"warlock" : 4,
+				"barbarian" : 8,
+				"battlemage" : 6,
+				"beastmaster" : 8,
+				"witch" : 4,
+				"planeswalker" : 3,
+				"elementalist" : 4
 			},
-			"tavernVideo": "TAVERN.BIK",
-			"townBackground": "ark/town/background",
+			"tavernVideo" : "TAVERN.BIK",
+			"townBackground" : "ark/town/background",
 			"guildBackground" : "TPMAGE.bmp"
 		}
 	}

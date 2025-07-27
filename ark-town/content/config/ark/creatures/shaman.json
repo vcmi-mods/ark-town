@@ -1,83 +1,79 @@
-	{
-		"ark_shaman_cmd": {
-			"name": {
-				"singular": "Shaman",
-				"plural": "Shamans"
-			},
-			"level": 0,
-			"special": true,
-			"faction": "ark",
-			"cost": {
-				"wood": 0,
-				"mercury": 0,
-				"ore": 0,
-				"sulfur": 0,
-				"crystal": 0,
-				"gems": 0,
-				"gold": 140
-			},
-			"fightValue" : 130,
-			"aiValue" : 156,
-			"growth": 9,
-			"attack": 5,
-			"defense": 5,
-			"hitPoints": 40,
-			"shots": 24,
-			"speed": 4,
-			"damage": {
-				"min": 6,
-				"max": 12
-			},
-			"spellPoints": 0,
-			"advMapAmount": {
-				"max": 18,
-				"min": 12
-			},
-			"doubleWide": false,
-			"abilities": {
-			"call" :
-			{
+{
+	"ark_shaman_cmd" : {
+		"name" : {
+			"singular" : "Shaman",
+			"plural" : "Shamans"
+		},
+		"level" : 0,
+		"special" : true,
+		"faction" : "ark",
+		"cost" : {
+			"wood" : 0,
+			"mercury" : 0,
+			"ore" : 0,
+			"sulfur" : 0,
+			"crystal" : 0,
+			"gems" : 0,
+			"gold" : 140
+		},
+		"fightValue" : 130,
+		"aiValue" : 156,
+		"growth" : 9,
+		"attack" : 5,
+		"defense" : 5,
+		"hitPoints" : 40,
+		"shots" : 24,
+		"speed" : 4,
+		"damage" : {
+			"min" : 6,
+			"max" : 12
+		},
+		"spellPoints" : 0,
+		"advMapAmount" : {
+			"max" : 18,
+			"min" : 12
+		},
+		"doubleWide" : false,
+		"abilities" : {
+			"call" : {
 				"type" : "SUMMON_GUARDIANS",
 				"subtype" : "ark_penguin",
 				"val" : 40
 			},
-			"spellpower" :
-			{
+			"spellpower" : {
 				"type" : "CREATURE_SPELL_POWER",
 				"val" : 100
 			},
-			"castsIce" :
-			{
+			"castsIce" : {
 				"type" : "SPELLCASTER",
 				"subtype" : "iceBolt",
 				"val" : 1
 			},
-			"castsCount" :
-			{
+			"castsCount" : {
 				"type" : "CASTS",
 				"val" : 3
 			}
-			},
-			"hasDoubleWeek": true,
-			"graphics": {
-				"animation": "ark/creatures/battle/shaman.def",
-				"map": "ark/creatures/adventure/shaman.def",
-				"iconSmall": "ark/creatures/icon/shaman.bmp",
-				"iconLarge": "ark/creatures/portrait/shaman.bmp",
-				"timeBetweenFidgets": 1.00,
-				"animationTime": {
-					"walk": 1,
-					"idle": 10.00,
-					"attack": 1
-				}
-			},
-			"sound": {
-				"attack": "ark/SHAMATTK.wav",
-				"defend": "HGOBDFND.wav",
-				"killed": "HGOBKILL.wav",
-				"move": "HGOBMOVE.wav",
-				"shoot": "ark/SHAMMAGIC.wav",
-				"wince": "HGOBWNCE.wav"
+		},
+		"hasDoubleWeek" : true,
+		"graphics" : {
+			"animation" : "ark/creatures/battle/shaman.def",
+			"map" : "ark/creatures/adventure/shaman.def",
+			"iconSmall" : "ark/creatures/icon/shaman.bmp",
+			"iconLarge" : "ark/creatures/portrait/shaman.bmp",
+			"timeBetweenFidgets" : 1.0,
+			"animationTime" : {
+				"walk" : 1,
+				"idle" : 10.0,
+				"attack" : 1
 			}
+		},
+		"sound" : {
+			"attack" : "ark/SHAMATTK.wav",
+			"defend" : "HGOBDFND.wav",
+			"killed" : "HGOBKILL.wav",
+			"move" : "HGOBMOVE.wav",
+			"shoot" : "ark/SHAMMAGIC.wav",
+			"wince" : "HGOBWNCE.wav"
 		}
 	}
+}
