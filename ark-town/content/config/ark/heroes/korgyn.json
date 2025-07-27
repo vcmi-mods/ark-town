@@ -38,7 +38,7 @@
 		"specialty" : {
 		"bonuses" : {
 			"gold" : {
-					"subtype" : "resource.mercury",
+					"subtype" : "mercury",
 					"type" : "GENERATE_RESOURCE",
 					"val" : 1
 				}
@@ -48,7 +48,7 @@
 			"biography": "Korgyn is one of the few elders of the Frostling people who managed to live to such an old age without losing all his knowledge and skills, which to this day help him not only lead his tribe, but also enter into profitable trade alliances with his neighbors.",
 			"name": "Korgyn",
 			"specialty": {
-				"description" : "{+1 Mercury}\r\n\r\nProvide 1 mercury per day to your kingdom.",
+				"description" : "Provide 1 mercury per day to your kingdom.",
 				"tooltip" : "+1 Mercury",
 				"name" : "+1 Mercury"
 			}

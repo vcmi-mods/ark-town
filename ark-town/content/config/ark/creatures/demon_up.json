@@ -40,10 +40,13 @@
 				"type": "DEFENSIVE_STANCE",
 				"val": 3
 				    },
-			"Fearless": {
-				"type": "FEARLESS",
-				"val": 3
-				    },
+			"fearless" : {
+				"type" : "FEARFUL",
+				"valueType" : "INDEPENDENT_MIN",
+				"val" : 0,
+				"description" : "{Fearless}\nImmune to Fear ability",
+				"icon" : "ark/icons/bonuses/e_fearl.png"
+			},
 			"Reduction": {
 				"type": "GENERAL_DAMAGE_REDUCTION",
 				"val": 5
@@ -51,12 +54,12 @@
 			"Catapult" :
 			{
 				"type" : "CATAPULT",
-				"subtype" : "spell.cyclopsShot"
+				"subtype" : "cyclopsShot"
 			},
 			"CatapultTimes" :
 			{
 				"type" : "CATAPULT_EXTRA_SHOTS",
-				"subtype" : "spell.cyclopsShot",
+				"subtype" : "cyclopsShot",
 				"valueType" : "BASE_NUMBER",
 				"val" : 1
 			}

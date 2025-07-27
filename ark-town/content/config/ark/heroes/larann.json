@@ -42,10 +42,10 @@
 			"creature" : "ark_sylph_lvl5"
 		},
 		"texts": {
-			"biography": "For a long time, the Sylph people have stood guard over the permafrost lands, even before these expanses were inhabited by the Frostling and Inuk tribes. Larann ​​is devoted to her people, she is not only an unsurpassed magician, but also an excellent warrior, which allowed her to lead one of the Sylph academies and continue to fulfill her destiny in protecting the north.",
+			"biography": "For a long time, the Sylph people have stood guard over the permafrost lands, even before these expanses were inhabited by the Frostling and Inuk tribes. Larann is devoted to her people, she is not only an unsurpassed magician, but also an excellent warrior, which allowed her to lead one of the Sylph academies and continue to fulfill her destiny in protecting the north.",
 			"name": "Larann",
 			"specialty": {
-				"description" : "{Sylph and Sylph Witches}\r\n\r\nIncreases the Attack and Defense skills of any Sylph and Sylph Witches she commands for each level attainded after 4th level.",
+				"description" : "Increases the Attack and Defense skills of any Sylph and Sylph Witches she commands for each level attainded after 4th level.",
 				"tooltip" : "Creature bonus: Sylph",
 				"name" : "Sylph"
 			}

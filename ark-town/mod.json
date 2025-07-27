@@ -3,11 +3,12 @@
 	"description": "The new city of Ark-town, created based on the folklore of the peoples of the far north.",
 	"author": "Vovan1698",
 	"contact": "discord: Vovan1698",
-	"version": "1.0.3",
+	"version": "1.0.5",
 	"modType": "Town", 
 	"depends" : [ "hota.cove", "hota.interference" ],
+	"conflicts" : [ "an-expansion.skills.warfare" ],
 	"compatibility": {
-		"min": "1.6.0"
+		"min": "1.7.0"
 	},
 	"russian": {
 		"name": "Арк",
@@ -23,9 +24,18 @@
 			"translation/ark/polish.json"
 		]
 	},
+    "chinese": {
+		"name": "方舟城",
+		"description": "新城镇方舟，基于极北民族的民间传说创作。",
+		"translations": [
+			"translation/ark/chinese.json"
+		]
+	},
 	"changelog": {
+		"1.0.5": [ "Update to vcmi-1.7 format"],
+		"1.0.4": [ "Fixes for banks"],
 		"1.0.3": [ "Fixed Polish translation integrity with original game version by Yoshiro."],
-                "1.0.2": [ "Polish translation by FallainBlack"],
+        "1.0.2": [ "Polish translation by FallainBlack"],
 		"1.0.1": [ "Fix Grail not to produce gold"],
 		"1.0.0": [ "Initial release"]
 	},

@@ -40,8 +40,22 @@
 			"Block": {
 				"type": "BLOCKS_RETALIATION"
 			},
-			"Fears": {
-				"type": "FEAR"
+			"fearful" : {
+				"type" : "FEARFUL",
+				"val" : 10,
+				"propagator" : "BATTLE_WIDE",
+				"propagationUpdater" : "BONUS_OWNER_UPDATER",
+				"limiters" : [
+					"OPPOSITE_SIDE",
+					{
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"parameters" : [
+							"LIVING"
+						]
+					}
+				],
+				"description" : "{Fearsome}\nEnemy units have a 10% chance of freezing in fear",
+				"icon" : "ark/icons/bonuses/e_fear.png"
 			},
 			"Fero": {
 				"type": "FEROCITY",

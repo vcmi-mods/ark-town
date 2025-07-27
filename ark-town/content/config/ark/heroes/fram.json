@@ -42,7 +42,7 @@
 			"biography": "Fram's youth had a very difficult fate: her father, the leader of the tribe, was killed before her own eyes by the Moroders who came from the Highlands, which is why she had to take the reins of government of her tribe and prevent its complete collapse. In many ways, the girl managed to rally other Frostlings around her thanks to her discovered leadership qualities as a true daughter of a leader.",
 			"name": "Fram",
 			"specialty": {
-				"description" : "{Frostlings and Frostling Trackers}\r\n\r\nIncreases the Attack and Defense skills of any Frostlings and Frostling Trackers he commands for each level attainded after 1st level.",
+				"description" : "Increases the Attack and Defense skills of any Frostlings and Frostling Trackers he commands for each level attainded after 1st level.",
 				"tooltip" : "Creature bonus: Frostlings",
 				"name" : "Frostlings"
 			}

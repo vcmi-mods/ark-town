@@ -41,7 +41,7 @@
 			"biography": "The formidable and powerful Cycyrn, the leader of the ice giants, whose wrath all the tribes of the far north fear and, in order to appease this powerful creature, present him with gifts. But they do this not so that the giant does not destroy their villages, but so that they turn their anger on the daring enemies who come to ruin small tribes.",
 			"name": "Cycyrn",
 			"specialty": {
-				"description" : "{Ice Giants and Giant Flame-Bearers}\r\n\r\nIncreases the Attack and Defense skills of any Ice Giants and Giant Flame-Bearers she commands for each level attainded after 5th level.",
+				"description" : "Increases the Attack and Defense skills of any Ice Giants and Giant Flame-Bearers she commands for each level attainded after 5th level.",
 				"tooltip" : "Creature bonus: Ice Giants",
 				"name" : "Ice Giants"
 			}

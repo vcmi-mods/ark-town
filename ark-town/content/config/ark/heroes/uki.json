@@ -38,16 +38,8 @@
 				"skill": "wisdom"
 			}
 		],
-		"specialty": {
-			"bonuses": {
-				"firstAid": {
-					"subtype": "core:spell.firstAid",
-					"targetSourceType": "SECONDARY_SKILL",
-					"type": "SPECIFIC_SPELL_POWER",
-					"val": 5,
-					"valueType": "PERCENT_TO_BASE"
-				}
-			}
+		"specialty" : {
+			"secondary" : "firstAid"
 		},
 		"texts": {
 			"biography": "As a novice at the Sylph Academy, Uki had been practicing the magical skills of her people since her youth, but she was not interested in the formidable spells of wind and cold, she did not want to take other people's lives, but wanted to save them. She put all her talent into studying healing spells and managed to save many representatives of the northern peoples, literally pulling them back from the other world.",
@@ -55,7 +47,7 @@
 			"specialty": {
 				"tooltip": "Secondary Skill Bonus: First Aid",
 				"name": "First Aid",
-				"description": "{First Aid}\r\n\r\nReceives a 5% per level bonus to First Aid skill percentage."
+				"description": "Receives a 5% per level bonus to First Aid skill percentage."
 			}
 		}
 	}

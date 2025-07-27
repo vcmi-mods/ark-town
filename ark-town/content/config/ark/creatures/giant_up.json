@@ -53,14 +53,21 @@
 			"castsInferno" :
 			{
 				"type" : "SPELLCASTER",
-				"subtype" : "spell.inferno",
+				"subtype" : "inferno",
 				"val" : 3
 			},
 			"castsCount" :
 			{
 				"type" : "CASTS",
 				"val" : 3
-			}
+			},
+			"fearless" : {
+				"type" : "FEARFUL",
+				"valueType" : "INDEPENDENT_MIN",
+				"val" : 0,
+				"description" : "{Fearless}\nImmune to Fear ability",
+				"icon" : "ark/icons/bonuses/e_fearl.png"
+			}			
 		},
 		"hasDoubleWeek": false,
 		"graphics": {

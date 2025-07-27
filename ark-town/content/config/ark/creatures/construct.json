@@ -49,10 +49,13 @@
 		"speed" : 6,
 		"abilities" :
 		{
-		"fearless" :
-			{
-				"type" : "FEARLESS"
-			 }
+			"fearless" : {
+				"type" : "FEARFUL",
+				"valueType" : "INDEPENDENT_MIN",
+				"val" : 0,
+				"description" : "{Fearless}\nImmune to Fear ability",
+				"icon" : "ark/icons/bonuses/e_fearl.png"
+			}	
 		}
 	}
 }

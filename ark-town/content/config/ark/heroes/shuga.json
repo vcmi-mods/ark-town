@@ -50,7 +50,7 @@
 			"biography": "Shuga is known as the most terrible ice demon of the permafrost lands, even other demons fall into fear at the sight of him, not to mention the enemy armies whose warriors lose all morality at the sight of this creature.",
 			"name": "Shuga",
 			"specialty": {
-				"description" : "{-1 Morale}\r\n\r\nGive -1 Morale to Enemy's troop.",
+				"description" : "Give -1 Morale to Enemy's troop.",
 				"tooltip" : "-1 Morale",
 				"name" : "-1 Morale"
 			}

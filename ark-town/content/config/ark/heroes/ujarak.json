@@ -35,17 +35,8 @@
 				"skill": "leadership"
 			}
 		],
-		"specialty": {
-			"bonuses": {
-				"offence": {
-					"targetSourceType": "SECONDARY_SKILL",
-					"type": "PERCENTAGE_DAMAGE_BOOST",
-					"subtype" : "damageTypeMelee",
-					"val": 5,
-					"valueType": "PERCENT_TO_BASE",
-					"updater": "TIMES_HERO_LEVEL"
-				}
-			}
+		"specialty" : {
+			"secondary" : "offence"
 		},
 		"texts": {
 			"biography": "Ujarak is rightfully considered the most warlike representative of his people among the Frostling tribes. He spent five whole years in a foreign land, hunting in the Highlands, where he survived many battles with warlike dwarves and earned his famous scars and trophies. Even the dwarven rulers learned about the tall Frostling, who could easily cut through their vaunted steel with his blow.",
@@ -53,7 +44,7 @@
 			"specialty": {
 				"tooltip": "Secondary Skill Bonus: Offence",
 				"name": "Offence",
-				"description": "{Offence}\r\n\r\nReceives a 5% per level bonus to Offence skill percentage."
+				"description": "Receives a 5% per level bonus to Offence skill percentage."
 			}
 		}
 	}

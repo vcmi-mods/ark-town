@@ -45,7 +45,7 @@
 			"biography": "Queldor was struck by the heart of the ice mountains a long time ago, but by the standards of ice demons he is still young, and, as practice shows, he is quite eager for glorious battles. Other ice demons prefer to stay away from the settlements of the serven tribes, but their warlike brother spends almost all his time outside their domains in search of worthy opponents.",
 			"name": "Queldor",
 			"specialty": {
-				"description" : "{Ice Demons and Greater Ice Demons}\r\n\r\nIncreases Speed of any Ice Demons and Greater Ice Demons by 1 and their Attack and Defense skills by 5% for every 3 levels (rounded up).",
+				"description" : "Increases Speed of any Ice Demons and Greater Ice Demons by 1 and their Attack and Defense skills by 5% for every 3 levels (rounded up).",
 				"tooltip" : "Creature bonus: Ice Demons",
 				"name" : "Ice Demons"
 			}

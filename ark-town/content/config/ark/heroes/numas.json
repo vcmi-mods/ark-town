@@ -42,7 +42,7 @@
 			"bonuses":	{
 				"iceBolt" :	{
 					"type": "SPECIAL_SPELL_LEV",
-					"subtype": "spell.iceBolt",
+					"subtype": "iceBolt",
 					"addInfo": 5
 				}
 			}
@@ -51,7 +51,7 @@
 			"biography": "Numas was absent from his native lands of the ever-frozen north for a long time, since while still a young sorcerer he went on a long voyage, as a result of which he ended up in the lands of the Vori elves. Returning to his native land, he became a prominent sorcerer among his Inuk.",
 			"name": "Numas",
 			"specialty": {
-				"description": "{Ice Bolt}\r\n\r\nCasts Ice Bolt with increased effect, based on hero level compared to the level of the target unit (the bonus is greater when used on weaker units.).",
+				"description": "Casts Ice Bolt with increased effect, based on hero level compared to the level of the target unit (the bonus is greater when used on weaker units.).",
 				"name": "Ice Bolt",
 				"tooltip": "Spell bonus: Ice Bolt"
 			}

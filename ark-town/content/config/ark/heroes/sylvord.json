@@ -36,22 +36,13 @@
 			}
 		],
 		"specialty" : {
-			"bonuses" : {
-				"logistics" : {
-					"targetSourceType" : "SECONDARY_SKILL",
-					"subtype" : "heroMovementLand",
-					"type" : "MOVEMENT",
-					"updater" : "TIMES_HERO_LEVEL",
-					"val" : 5,
-					"valueType" : "PERCENT_TO_TARGET_TYPE"
-				}
-			}
+			"secondary" : "logistics"
 		},
 		"texts": {
 			"biography": "In fact, Sylvord is a stranger among the inhabitants of the far north of the continent, this representative of the human race arrived in these lands about ten years ago, hiding from the justice of the kingdom, but by no means turned into an outcast, but, on the contrary, found a new craft, being an excellent guide, even among huge snowdrifts and frozen rocks.",
 			"name": "Sylvord",
 			"specialty": {
-				"description" : "{Logistics}\r\n\r\nGive 5% extra bonus per level to Logistics skill.",
+				"description" : "Give 5% extra bonus per level to Logistics skill.",
 				"tooltip" : "Skill bonus: Logistics",
 				"name" : "Logistics"
 			}

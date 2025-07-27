@@ -49,7 +49,7 @@
 			"castsIce" :
 			{
 				"type" : "SPELLCASTER",
-				"subtype" : "spell.iceBolt",
+				"subtype" : "iceBolt",
 				"val" : 1
 			},
 			"castsCount" :

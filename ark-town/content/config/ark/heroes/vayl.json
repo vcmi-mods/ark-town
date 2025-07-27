@@ -35,17 +35,8 @@
 				"skill": "tactics"
 			}
 		],
-		"specialty": {
-			"bonuses": {
-				"archery": {
-					"targetSourceType": "SECONDARY_SKILL",
-					"type": "PERCENTAGE_DAMAGE_BOOST",
-					"subtype" : "damageTypeRanged",
-					"val": 5,
-					"valueType": "PERCENT_TO_BASE",
-					"updater": "TIMES_HERO_LEVEL"
-				}
-			}
+		"specialty" : {
+			"secondary" : "archery"
 		},
 		"texts": {
 			"biography": "Vayl is half demon and half Inuk, but the mystery of his origin is shrouded in mystery, which he keeps in strict confidence. Perhaps he was created by some powerful sorcerer or was born from the heart of the icy mountains, no one knows. He came to the Inca tribe many years ago and was able to easily integrate into their daily life. His passion immediately became archery and hunting, in which he succeeded very well.",
@@ -53,7 +44,7 @@
 			"specialty": {
 				"tooltip": "Secondary Skill Bonus: Archery",
 				"name": "Archery",
-				"description": "{Archery}\r\n\r\nReceives a 5% per level bonus to Archery skill percentage."
+				"description": "Receives a 5% per level bonus to Archery skill percentage."
 			}
 		}
 	}

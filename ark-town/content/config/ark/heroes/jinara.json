@@ -33,20 +33,13 @@
 			}
 		],
 		"specialty" : {
-			"bonuses" : {
-				"learning" : {
-					"targetSourceType" : "SECONDARY_SKILL",
-					"type" : "HERO_EXPERIENCE_GAIN_PERCENT",
-					"valueType" : "PERCENT_TO_TARGET_TYPE",
-					"updater" : "TIMES_HERO_LEVEL"
-				}
-			}
+			"secondary" : "learning"
 		},
 		"texts": {
 			"biography": "Jinara's mother has been the keeper of the magical archive of the sylphs in the great ice palace of the north for three hundred years, and therefore her young daughter has access to a huge repository of the secret knowledge of her people from early childhood. It was her love of books and ancient scrolls that made Jinara a strong new leader and future heir to the entire archive.",
 			"name": "jinara",
 			"specialty": {
-				"description" : "{Learning}\r\n\r\nReceives a 10% per level bonus to Learning skill percentage.",
+				"description" : "Receives a 5% per level bonus to Learning skill percentage.",
 				"tooltip" : "Skill bonus: Learning",
 				"name" : "Learning"
 			}

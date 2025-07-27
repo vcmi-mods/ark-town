@@ -6,58 +6,53 @@
 				"blacksmith" : {
 					"cost" : { "gold" : 1000, "wood" : 5 },
 					"description" : "The Blacksmith provides your armies with Supply Carts.",
-					"id" : 16,
+					
 					"warMachine" : "ammoCart",
 					"name" : "Blacksmith"
 				},
 				"capitol" : {
 					"cost" : { "gold" : 10000 },
 					"description" : "The Capitol earns your kingdom 4000 gold per day.",
-					"id" : 13,
+					
 					"name" : "Capitol",
-					"requires" : [ "castle" ],
-					"upgrades" : "cityHall"
+					"requires" : [ "castle" ]
 				},
 				"castle" : {
 					"cost" : { "gold" : 5000, "ore" : 10, "wood" : 10 },
 					"description" : "The Castle adds two arrow towers, fortifies your town's defenses, and doubles base creature growth.",
-					"id" : 9,
-					"name" : "Castle",
-					"upgrades" : "citadel"
+					
+					"name" : "Castle"
 				},
 				"citadel" : {
 					"cost" : { "gold" : 2500, "ore" : 5 },
 					"description" : "Including a 50% increase to base creature growth, the Citadel adds a keep, and other terrain obstacles, to a town's defenses.",
-					"id" : 8,
-					"name" : "Citadel",
-					"upgrades" : "fort"
+					
+					"name" : "Citadel"
 				},
 				"cityHall" : {
 					"cost" : { "gold" : 5000 },
 					"description" : "The City Hall allows you to purchase town structures and earns your kingdom 2000 gold per day.",
-					"id" : 12,
-					"name" : "City Hall",
-					"requires" : [ "allOf", [ "mageGuild1" ], [ "blacksmith" ], [ "marketplace" ] ],
-					"upgrades" : "townHall"
+					
+					"name" : "City Hall"
 				},
 				"dwellingLvl1" : {
 					"cost" : { "gold" : 500,"ore" : 10 },
 					"description" : "The Igloo allows you to recruit Frostlings.",
-					"id" : 30,
+					
 					"name" : "Igloo",
 					"requires" : [ "fort" ]
 				},
 				"dwellingLvl2" : {
 					"cost" : { "gold" : 1000, "wood" : 5, "ore" : 5 },
 					"description" : "The FrozenVillage allow you to recruit Inuks.",
-					"id" : 31,
+					
 					"name" : "Frozen Village",
 					"requires" : [ "dwellingLvl1" ]
 				},
 				"dwellingLvl3" : {
 					"cost" : { "gold" : 1000, "ore" : 10 },
 					"description" : "The Ram Rocks allows you to recruit Mountain Rams.",
-					"id" : 32,
+					
 					"name" : "Ram Rocks",
 					"requires" : [ "allOf", [ "dwellingLvl1" ], [ "blacksmith" ]]
 				},
@@ -67,19 +62,19 @@
 					"name" : "Animal Lair",
 					"cost" : { "gold" : 1000, "ore" : 5 },
 					"requires" : [ "dwellingLvl3" ],
-					"id" : 33
+					
 				},				
 				"dwellingLvl5" : {
 					"cost" : { "gems" : 4, "gold" : 2500, "ore" : 5 },
 					"description" : "The Palace Of Cold allows you to recruit Sylphs.",
-					"id" : 34,
+					
 					"name" : "Palace Of Cold",
 					"requires" : [ "allOf", [ "dwellingLvl2" ], [ "mageGuild1" ], [ "dwellingLvl3" ] ]
 				},
 				"dwellingLvl6" : {
 					"cost" : { "gold" : 3000, "ore" : 5, "wood" : 5 },
 					"description" : "The Ice Cave allow you to recruit Ice Demons.",
-					"id" : 35,
+					
 					"name" : "Ice Cave",
 					"requires" : [ "allOf", [ "dwellingLvl4" ], [ "noneOf", [ "dwellingLvl6B" ] ] ]
 				},
@@ -93,14 +88,14 @@
 				"dwellingLvl7" : {
 					"cost" : { "gold" : 7500, "ore" : 10, "mercury" : 5, "crystal" : 5, "wood" : 10 },
 					"description" : "The Sacred Lair allows you to recruit Ice Giants.",
-					"id" : 36,
+					
 					"name" : "Sacred Lair",
 					"requires" : [ "allOf", [ "dwellingLvl5" ], [ "anyOf", [ "dwellingLvl6" ], [ "dwellingLvl6B" ] ] ] 
 				},
 				"dwellingUpLvl1" : {
 					"cost" : { "gold" : 1000, "ore" : 5 },
 					"description" : "The Igloo allows you to recruit Frostling Trackers.",
-					"id" : 37,
+					
 					"name" : "Upg. Igloo",
 					"requires" : [ "tavern" ],
 					"upgrades" : "dwellingLvl1"
@@ -108,7 +103,7 @@
 				"dwellingUpLvl2" : {
 					"cost" : { "gold" : 1000, "wood" : 10 },
 					"description" : "The Frozen Village allow you to recruit Inuk Hunters.",
-					"id" : 38,
+					
 					"name" : "Upg. Frozen Village",
 					"requires" : [ "blacksmith" ],
 					"upgrades" : "dwellingLvl2"
@@ -116,7 +111,7 @@
 				"dwellingUpLvl3" : {
 					"cost" : { "gold" : 1000, "sulfur" : 5 },
 					"description" : "The Ram Rocks allows you to recruit Argali.",
-					"id" : 39,
+					
 					"name" : "Upg. Ram Rocks",
 					"upgrades" : "dwellingLvl3"
 				},
@@ -124,7 +119,7 @@
 				{
 					"description" : "The Animal Lair allows you to recruit Rhino Riders.",
 					"name" : "Upg. Animal Lair",
-					"id" : 40,
+					
 					"cost" : { "crystal" : 5, "gold" : 1500 },
 					"upgrades" : "dwellingLvl4",
 					"requires" : [ "blacksmith" ]
@@ -132,7 +127,7 @@
 				"dwellingUpLvl5" : {
 					"cost" : { "crystal" : 5, "gold" : 2000, "ore" : 5 },
 					"description" : "The Palace Of Cold allows you to recruite Sylph Witches.",
-					"id" : 41,
+					
 					"name" : "Upg. Palace Of Cold",
 					"upgrades" : "dwellingLvl4",
 					"requires" : [ "mageGuild2" ]
@@ -140,7 +135,7 @@
 				"dwellingUpLvl6" : {
 					"cost" : { "crystal" : 5, "gold" : 2000, "ore" : 5, "wood" : 5 },
 					"description" : "The Ice Cave allow you to recruit Greater Ice Demons.",
-					"id" : 42,
+					
 					"name" : "Upg. Ice Cave",
 					"upgrades" : "dwellingLvl6"
 				},
@@ -154,7 +149,7 @@
 				"dwellingUpLvl7" : {
 					"cost" : { "gems" : 15, "gold" : 20000, "ore" : 5, "mercury" : 15, "wood" : 5 },
 					"description" : "The Sacred Lair allows you to recruit Giant Flame-Bearers.",
-					"id" : 43,
+					
 					"name" : "Upg. Sacred Lair",
 					"requires" : [ "mageGuild3" ],
 					"upgrades" : "dwellingLvl7"
@@ -162,69 +157,66 @@
 				"fort" : {
 					"cost" : { "gold" : 5000, "ore" : 20, "wood" : 20 },
 					"description" : "The Fort provides your town with defensive walls.",
-					"id" : 7,
+					
 					"name" : "Fort"
 				},
 				"grail": {
 					"description": "The Glacier increases the weekly generation of creatures by 50% and provides your kingdom with an additional 5000 gold each day, also reduces the damage to heroes in battle by 15, gives the ability to place an army before the battle on 8 cells and allows you to use manual control of the catapult during the siege.",
-					"id": 26,
-					"produce": { "gold": 5000 },
 					"bonuses": [
 						{ 	"type": "GENERAL_DAMAGE_REDUCTION", 
 							"subtype": "damageTypeAll", 
 							"val": 15, 
 							"valueType": "ADDITIVE_VALUE",
-							"propagator": "PLAYER_PROPAGATOR" 
+							"propagator": "PLAYER" 
 						},
 						{
 							"type": "BEFORE_BATTLE_REPOSITION", 
 							"val": 8, 
 							"valueType": "ADDITIVE_VALUE",
-							"propagator": "PLAYER_PROPAGATOR"
+							"propagator": "PLAYER"
 						},
 						{
 							"type": "MANUAL_CONTROL", 
 							"subtype": "catapult", 
 							"val": 100,
 							"valueType": "ADDITIVE_VALUE",
-							"propagator": "PLAYER_PROPAGATOR"
+							"propagator": "PLAYER"
 						},
 						{
 							"type": "MANUAL_CONTROL", 
 							"subtype": "ballista", 
 							"val": 100,
 							"valueType": "ADDITIVE_VALUE",
-							"propagator": "PLAYER_PROPAGATOR"
+							"propagator": "PLAYER"
 						},
 						{
 							"type": "MANUAL_CONTROL", 
 							"subtype": "ammoCart", 
 							"val": 100,
 							"valueType": "ADDITIVE_VALUE",
-							"propagator": "PLAYER_PROPAGATOR"
+							"propagator": "PLAYER"
 						},
 						{
 							"type": "MANUAL_CONTROL", 
 							"subtype": "firstAidTent", 
 							"val": 100,
 							"valueType": "ADDITIVE_VALUE",
-							"propagator": "PLAYER_PROPAGATOR"
+							"propagator": "PLAYER"
 						}
 						   ],
-					"mode": "grail",
 					"name": "Glacier"
 				},
 				"horde1" : {
 					"cost" : { "gold" : 1000 },
 					"description" : "The Fishermen's Yurt increases Frostlings production by 9 per week.",
-					"id" : 18,
+					
 					"name" : "Fishermen's Yurt",
 					"upgrades" : "dwellingLvl1"
 				},
 				"horde1Upgr" : {
 					"cost" : { "gold" : 1000 },
 					"description" : "The Fishermen's Yurt increases Frostling Trackers production by 9 per week.",
-					"id" : 19,
+					
 					"mode" : "auto",
 					"name" : "Fishermen's Yurt",
 					"requires" : [ "horde1" ],
@@ -233,14 +225,14 @@
 				"horde3" : {
 					"cost" : { "gold" : 3000 },
 					"description" : "The Ice-Free River increases Mountain Rams production by 4 per week.",
-					"id" : 24,
+					
 					"name" : "Ice-Free River",
 					"upgrades" : "dwellingLvl3"
 				},
 				"horde3Upgr" : {
 					"cost" : { "gold" : 3000 },
 					"description" : "The Ice-Free River increases Argali production by 4 per week.",
-					"id" : 25,
+					
 					"mode" : "auto",
 					"name" : "Ice-Free River",
 					"requires" : [ "horde3" ],
@@ -249,36 +241,33 @@
 				"mageGuild1" : {
 					"cost" : { "gold" : 2000, "ore" : 5, "wood" : 5 },
 					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
-					"id" : 0,
+					
 					"name" : "Mage Guild Level 1"
 				},
 				"mageGuild2" : {
 					"cost" : { "crystal" : 4, "gems" : 4, "gold" : 1000, "mercury" : 4, "ore" : 5, "sulfur" : 4, "wood" : 5 },
 					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
-					"id" : 1,
-					"name" : "Mage Guild Level 2",
-					"upgrades" : "mageGuild1"
+					
+					"name" : "Mage Guild Level 2"
 				},
 				"mageGuild3" : {
 					"cost" : { "crystal" : 6, "gems" : 6, "gold" : 1000, "mercury" : 6, "ore" : 5, "sulfur" : 6, "wood" : 5 },
 					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
-					"id" : 2,
-					"name" : "Mage Guild Level 3",
-					"upgrades" : "mageGuild2"
+					
+					"name" : "Mage Guild Level 3"
 				},
 				"marketplace" : {
 					"cost" : { "gold" : 500, "wood" : 5 },
 					"description" : "With the Marketplace, you can buy and sell resources (exchange rates increase with each Marketplace you own).",
-					"id" : 14,
+					
 					"name" : "Marketplace"
 				},
 				"resourceSilo" : {
 					"cost" : { "gold" : 5000, "ore" : 5 },
 					"description" : "The Resource Silo provides you with an additional +1 mercury each day.",
-					"id" : 15,
+					
 					"name" : "Resource Silo",
-					"produce": { "mercury": 1 },
-					"requires" : [ "marketplace" ]
+					"produce": { "mercury": 1 }
 				},
 
 				"special1": {
@@ -302,12 +291,12 @@
 							"limiters" : [
 								{
 								"type": "CREATURE_FACTION_LIMITER",
-								"parameters" : ["ark"]
+								"faction" : "ark"
 								}
 								     ]
 						}
 						  ],
-					"id": 17,
+					
 					"name": "Sanctuary",
 					"requires": [
 						"blacksmith"
@@ -319,7 +308,7 @@
 						"mercury": 10
 					},
 					"description": "Frost Rune allows heroes to learn enemy spells that they used in battle.",
-					"id": 22,
+					
 					"configuration" : {
 						"visitMode" : "bonus",
 						"rewards" : [
@@ -338,7 +327,7 @@
 				"special4" : {
 					"cost" : { "gold" : 4000, "ore" : 10, "wood" : 10 },
 					"description" : "Dancing boulders allow you to level up your ballistics skill.",
-					"id" : 23,
+					
 					"manualHeroVisit" : true,
 					"name" : "Dancing Boulders",
 					"requires" : [ "marketplace" ],
@@ -391,21 +380,18 @@
 				"tavern" : {
 					"cost" : { "gold" : 500, "wood" : 5 },
 					"description" : "The Tavern increases morale for troops defending the city.",
-					"id" : 5,
+					
 					"name" : "Tavern"
 				},
 				"townHall" : {
 					"cost" : { "gold" : 2500 },
 					"description" : "The Town Hall allows you to purchase town structures and earns your kingdom 1000 gold per day.",
-					"id" : 11,
-					"name" : "Town Hall",
-					"requires" : [ "tavern" ],
-					"upgrades" : "villageHall"
+					
+					"name" : "Town Hall"
 				},
 				"villageHall" : {
 					"description" : "The Village Hall allows you to purchase town structures and earns your kingdom 500 gold per day.",
-					"id" : 10,
-					"mode" : "auto",
+					
 					"name" : "Village Hall"
 				}
 			}

@@ -42,7 +42,7 @@
 			"biography": "A secretive lone hero who conducts his activities to protect the northern lands, independently of other tribes. Hanta chose the path of a hunter, managing to rally a small group of other hunters around himself in order to together protect the borders of the north from the barbarians of the Highlands and no less dangerous neighbors from the south.",
 			"name": "Hanta",
 			"specialty": {
-				"description" : "{Inuks anf Inuk Hunters}\r\n\r\nIncreases the Attack and Defense skills of any Inuk Hunters he commands for each level attainded after 6th level.",
+				"description" : "Increases the Attack and Defense skills of any Inuk Hunters he commands for each level attainded after 6th level.",
 				"tooltip" : "Creature bonus: Inuks",
 				"name" : "Inuks"
 			}

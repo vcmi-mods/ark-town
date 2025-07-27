@@ -38,7 +38,7 @@
 			"biography": "Meriappi always had a thirst for adventure, and, being a member of a nomadic northern tribe, she received these very adventures in abundance. All her life she was surrounded by powerful and fast animals that could carry their wandering settlement from one place to another for days on end, and therefore she learned to find a common language with them, which allowed her to become one of the best riders in the north.",
 			"name": "Meriappi",
 			"specialty": {
-				"description" : "{Ram Riders and Rhino Riders}\r\n\r\nIncreases the Attack and Defense skills of any Ram Riders and Rhino Riders she commands for each level attainded after 3th level.",
+				"description" : "Increases the Attack and Defense skills of any Ram Riders and Rhino Riders she commands for each level attainded after 3th level.",
 				"tooltip" : "Creature bonus: Ram Riders",
 				"name" : "Ram Riders"
 			}

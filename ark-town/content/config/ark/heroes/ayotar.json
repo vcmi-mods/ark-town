@@ -37,7 +37,7 @@
 			"biography": "Few people have been able to establish strong connections with the monsters that live in the snowy mountains they come to the aid of local tribes of their own free will when their native spaces are in danger. But if we talk about Ayotar, here we will have to deal with the most intelligent representative of these creatures. It is his northern tribes who call for help when the situation requires it.",
 			"name": "Ayotar",
 			"specialty": {
-				"description" : "{Snow Monsters and Cave Monsters}\r\n\r\nIncreases Speed of any Snow Monsters and Cave Monsters by 1 and their Attack and Defense skills by 5% for every 5 levels (rounded up).",
+				"description" : "Increases Speed of any Snow Monsters and Cave Monsters by 1 and their Attack and Defense skills by 5% for every 5 levels (rounded up).",
 				"tooltip" : "Creature bonus: Snow Monsters",
 				"name" : "Snow Monsters"
 			}
