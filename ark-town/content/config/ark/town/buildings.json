@@ -383,7 +383,7 @@
 					],
 					"upgrades" : "dwellingUpLvl1"
 				},
-				"horde3" : {
+				"horde2" : {
 					"cost" : {
 						"gold" : 3000
 					},
@@ -392,7 +392,7 @@
 					"name" : "Ice-Free River",
 					"upgrades" : "dwellingLvl3"
 				},
-				"horde3Upgr" : {
+				"horde2Upgr" : {
 					"cost" : {
 						"gold" : 3000
 					},
@@ -401,7 +401,7 @@
 					"mode" : "auto",
 					"name" : "Ice-Free River",
 					"requires" : [
-						"horde3"
+						"horde2"
 					],
 					"upgrades" : "dwellingUpLvl3"
 				},

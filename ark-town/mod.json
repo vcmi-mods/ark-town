@@ -3,7 +3,7 @@
 	"description" : "The new city of Ark-town, created based on the folklore of the peoples of the far north.",
 	"author" : "Vovan1698",
 	"contact" : "discord: Vovan1698",
-	"version" : "1.0.5",
+	"version" : "1.0.6",
 	"modType" : "Town",
 	"depends" : [
 		"hota.cove",
@@ -37,6 +37,9 @@
 		]
 	},
 	"changelog" : {
+		"1.0.6" : [
+			"Fix for issue with Horde buildings ids"
+		],
 		"1.0.5" : [
 			"Update to vcmi-1.7 format"
 		],

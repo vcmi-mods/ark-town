@@ -230,7 +230,7 @@
 					"z" : 1
 				},
 
-				"horde3" : {
+				"horde2" : {
 					"animation" : "ark/buildings/IceFreeRiver",
 					"area" : "ark/town/area/IceFreeRiverA",
 					"border" : "ark/town/border/IceFreeRiverB",
@@ -239,12 +239,12 @@
 					"y" : 0,
 					"z" : 2
 				},
-				"horde3Upgr" : {
+				"horde2Upgr" : {
 					"animation" : "ark/buildings/IceFreeRiverUp",
 					"area" : "ark/town/area/IceFreeRiverUpA",
 					"border" : "ark/town/border/IceFreeRiverUpB",
 					"hidden" : true,
-					"builds" : "horde3",
+					"builds" : "horde2",
 					"x" : 0,
 					"y" : 0,
 					"z" : 2

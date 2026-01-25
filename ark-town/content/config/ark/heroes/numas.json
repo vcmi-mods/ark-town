@@ -43,7 +43,7 @@
 				"iceBolt" : {
 					"type" : "SPECIAL_SPELL_LEV",
 					"subtype" : "iceBolt",
-					"addInfo" : 5
+					"val" : 5
 				}
 			}
 		},
