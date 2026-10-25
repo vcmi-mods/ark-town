@@ -15,6 +15,13 @@
 	"compatibility" : {
 		"min" : "1.7.0"
 	},
+	"french" : {
+		"name" : "Arche",
+		"description" : "La ville d’Arche, créée en s’inspirant du folklore des peuples du Grand Nord.",
+		"translations" : [
+			"translation/ark/french.json"
+		]
+	},
 	"russian" : {
 		"name" : "Арк",
 		"description" : "Новый город Арк, созданный на основе фольклора народов крайнего севера.",
