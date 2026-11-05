@@ -30,8 +30,8 @@
 					"animation" : "ark/buildings/Tavern",
 					"area" : "ark/town/area/TavernA",
 					"border" : "ark/town/border/TavernB",
-					"x" : 0,
-					"y" : 0,
+					"x" : 471,
+					"y" : 298,
 					"z" : 3
 				},
 				"fort" : {
